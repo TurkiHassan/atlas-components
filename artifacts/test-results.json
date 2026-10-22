@@ -1,0 +1,869 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node@24/24.21.0/bin/node",
+      "/Users/turki/Downloads/mixit/component-library/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/turki/Downloads/mixit/component-library/playwright.config.ts",
+    "rootDir": "/Users/turki/Downloads/mixit/component-library/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/turki/Downloads/mixit/component-library/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/turki/Downloads/mixit/component-library/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/turki/Downloads/mixit/component-library/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "/Users/turki/Downloads/mixit/component-library/tests",
+        "snapshotDir": "/Users/turki/Downloads/mixit/component-library/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium",
+          "channel": "chrome",
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run preview -w @atlas/catalog -- --port 4173 --strictPort",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "catalog.spec.ts",
+      "file": "catalog.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "all 70 upstream examples render without runtime errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1513,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:22:55.386Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30aa42b97d8966d0c2dc-f70cb39060ea2882ed7a",
+          "file": "catalog.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "Arabic search, category changes, empty state, and actual example source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 876,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:22:58.780Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30aa42b97d8966d0c2dc-605cc3c031c9d006357c",
+          "file": "catalog.spec.ts",
+          "line": 15,
+          "column": 1
+        },
+        {
+          "title": "dialog focus is trapped and restored with keyboard, and menus open in RTL",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1719,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:22:59.664Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30aa42b97d8966d0c2dc-a87b2071780a83efd5c3",
+          "file": "catalog.spec.ts",
+          "line": 30,
+          "column": 1
+        },
+        {
+          "title": "form validation, selection, notifications and Arabic date integration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1939,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:01.391Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30aa42b97d8966d0c2dc-1422e30603923a90f7bd",
+          "file": "catalog.spec.ts",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "data table pagination and sort integrate with upstream components",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 907,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:03.337Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30aa42b97d8966d0c2dc-8f3deaa35cbdae6b1a62",
+          "file": "catalog.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "large list renders a bounded number of rows, and editor is editable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 729,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:04.255Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30aa42b97d8966d0c2dc-7f5db61abf875e34e0af",
+          "file": "catalog.spec.ts",
+          "line": 75,
+          "column": 1
+        },
+        {
+          "title": "all examples pass the automated WCAG A/AA scan in both themes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5760,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:04.995Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "axe-scans",
+                      "contentType": "application/json",
+                      "body": "WwogIHsKICAgICJ0aGVtZSI6ICJkYXJrIiwKICAgICJ2aW9sYXRpb25zIjogW10KICB9LAogIHsKICAgICJ0aGVtZSI6ICJsaWdodCIsCiAgICAidmlvbGF0aW9ucyI6IFtdCiAgfQpd"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30aa42b97d8966d0c2dc-ffcd8b4ae681e47f126c",
+          "file": "catalog.spec.ts",
+          "line": 87,
+          "column": 1
+        },
+        {
+          "title": "responsive layouts and both directions have no page overflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2352,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:10.766Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30aa42b97d8966d0c2dc-39db09f13b81b6f06f1b",
+          "file": "catalog.spec.ts",
+          "line": 104,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "comparison.spec.ts",
+      "file": "comparison.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "hero: same Arabic form validates and saves",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1423,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:13.146Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-133b8af01809b44db577",
+          "file": "comparison.spec.ts",
+          "line": 8,
+          "column": 3
+        },
+        {
+          "title": "hero: dialog traps focus and restores it",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1521,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:14.575Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-db29efc28a9f12450ab0",
+          "file": "comparison.spec.ts",
+          "line": 22,
+          "column": 3
+        },
+        {
+          "title": "hero: table sort and pagination show the same records",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 920,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:16.106Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-4be2667af8d94ec4b199",
+          "file": "comparison.spec.ts",
+          "line": 38,
+          "column": 3
+        },
+        {
+          "title": "hero: date picker opens and preserves Gregorian storage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1172,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:17.037Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-202817d33f7400c5348d",
+          "file": "comparison.spec.ts",
+          "line": 48,
+          "column": 3
+        },
+        {
+          "title": "mantine: same Arabic form validates and saves",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 900,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:18.222Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-5bd630bf6f228ce03cc8",
+          "file": "comparison.spec.ts",
+          "line": 8,
+          "column": 3
+        },
+        {
+          "title": "mantine: dialog traps focus and restores it",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1352,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:19.132Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-d8f8fd5d22d809d0880c",
+          "file": "comparison.spec.ts",
+          "line": 22,
+          "column": 3
+        },
+        {
+          "title": "mantine: table sort and pagination show the same records",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 791,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:20.492Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-ceb6690f6e2bbe049abd",
+          "file": "comparison.spec.ts",
+          "line": 38,
+          "column": 3
+        },
+        {
+          "title": "mantine: date picker opens and preserves Gregorian storage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1112,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:21.290Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-56a96f6ad5e81fa2e3c6",
+          "file": "comparison.spec.ts",
+          "line": 48,
+          "column": 3
+        },
+        {
+          "title": "HeroUI displays Umm al-Qura while keeping storage consistent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1127,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:22.411Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-191a50ae79f5e637cb9a",
+          "file": "comparison.spec.ts",
+          "line": 59,
+          "column": 1
+        },
+        {
+          "title": "comparison controls update both isolated previews and remain responsive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3078,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:23.547Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-36bb94a620c654f437f3",
+          "file": "comparison.spec.ts",
+          "line": 71,
+          "column": 1
+        },
+        {
+          "title": "heading font supports local Free Palestine or Noto fallback and persists the choice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 666,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:26.634Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "font-availability",
+                      "contentType": "application/json",
+                      "body": "eyJsb2NhbExvYWRlZCI6dHJ1ZSwiZmFsbGJhY2tMb2FkZWQiOnRydWV9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-67cade5ce10f465f067b",
+          "file": "comparison.spec.ts",
+          "line": 86,
+          "column": 1
+        },
+        {
+          "title": "comparison fixtures have no automated WCAG A/AA violations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12546,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:27.312Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "comparison-axe",
+                      "contentType": "application/json",
+                      "body": "WwogIHsKICAgICJwcm92aWRlciI6ICJoZXJvIiwKICAgICJ0YXNrIjogImZvcm0iLAogICAgInRoZW1lIjogImxpZ2h0IiwKICAgICJ2aW9sYXRpb25zIjogW10KICB9LAogIHsKICAgICJwcm92aWRlciI6ICJoZXJvIiwKICAgICJ0YXNrIjogImRpYWxvZyIsCiAgICAidGhlbWUiOiAibGlnaHQiLAogICAgInZpb2xhdGlvbnMiOiBbXQogIH0sCiAgewogICAgInByb3ZpZGVyIjogImhlcm8iLAogICAgInRhc2siOiAidGFibGUiLAogICAgInRoZW1lIjogImxpZ2h0IiwKICAgICJ2aW9sYXRpb25zIjogW10KICB9LAogIHsKICAgICJwcm92aWRlciI6ICJoZXJvIiwKICAgICJ0YXNrIjogImRhdGUiLAogICAgInRoZW1lIjogImxpZ2h0IiwKICAgICJ2aW9sYXRpb25zIjogW10KICB9LAogIHsKICAgICJwcm92aWRlciI6ICJtYW50aW5lIiwKICAgICJ0YXNrIjogImZvcm0iLAogICAgInRoZW1lIjogImxpZ2h0IiwKICAgICJ2aW9sYXRpb25zIjogW10KICB9LAogIHsKICAgICJwcm92aWRlciI6ICJtYW50aW5lIiwKICAgICJ0YXNrIjogImRpYWxvZyIsCiAgICAidGhlbWUiOiAibGlnaHQiLAogICAgInZpb2xhdGlvbnMiOiBbXQogIH0sCiAgewogICAgInByb3ZpZGVyIjogIm1hbnRpbmUiLAogICAgInRhc2siOiAidGFibGUiLAogICAgInRoZW1lIjogImxpZ2h0IiwKICAgICJ2aW9sYXRpb25zIjogW10KICB9LAogIHsKICAgICJwcm92aWRlciI6ICJtYW50aW5lIiwKICAgICJ0YXNrIjogImRhdGUiLAogICAgInRoZW1lIjogImxpZ2h0IiwKICAgICJ2aW9sYXRpb25zIjogW10KICB9LAogIHsKICAgICJwcm92aWRlciI6ICJoZXJvIiwKICAgICJ0YXNrIjogImZvcm0iLAogICAgInRoZW1lIjogImRhcmsiLAogICAgInZpb2xhdGlvbnMiOiBbXQogIH0sCiAgewogICAgInByb3ZpZGVyIjogImhlcm8iLAogICAgInRhc2siOiAiZGlhbG9nIiwKICAgICJ0aGVtZSI6ICJkYXJrIiwKICAgICJ2aW9sYXRpb25zIjogW10KICB9LAogIHsKICAgICJwcm92aWRlciI6ICJoZXJvIiwKICAgICJ0YXNrIjogInRhYmxlIiwKICAgICJ0aGVtZSI6ICJkYXJrIiwKICAgICJ2aW9sYXRpb25zIjogW10KICB9LAogIHsKICAgICJwcm92aWRlciI6ICJoZXJvIiwKICAgICJ0YXNrIjogImRhdGUiLAogICAgInRoZW1lIjogImRhcmsiLAogICAgInZpb2xhdGlvbnMiOiBbXQogIH0sCiAgewogICAgInByb3ZpZGVyIjogIm1hbnRpbmUiLAogICAgInRhc2siOiAiZm9ybSIsCiAgICAidGhlbWUiOiAiZGFyayIsCiAgICAidmlvbGF0aW9ucyI6IFtdCiAgfSwKICB7CiAgICAicHJvdmlkZXIiOiAibWFudGluZSIsCiAgICAidGFzayI6ICJkaWFsb2ciLAogICAgInRoZW1lIjogImRhcmsiLAogICAgInZpb2xhdGlvbnMiOiBbXQogIH0sCiAgewogICAgInByb3ZpZGVyIjogIm1hbnRpbmUiLAogICAgInRhc2siOiAidGFibGUiLAogICAgInRoZW1lIjogImRhcmsiLAogICAgInZpb2xhdGlvbnMiOiBbXQogIH0sCiAgewogICAgInByb3ZpZGVyIjogIm1hbnRpbmUiLAogICAgInRhc2siOiAiZGF0ZSIsCiAgICAidGhlbWUiOiAiZGFyayIsCiAgICAidmlvbGF0aW9ucyI6IFtdCiAgfQpd"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-3b913fa6323669832942",
+          "file": "comparison.spec.ts",
+          "line": 105,
+          "column": 1
+        },
+        {
+          "title": "both libraries support the compared flows with touch at 390px",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5832,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T08:23:39.869Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "134bf4c0330291c58d86-188e65d2b6c188aeb8ab",
+          "file": "comparison.spec.ts",
+          "line": 128,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-22T08:22:54.596Z",
+    "duration": 51432.51500000001,
+    "expected": 21,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,1313 @@
+[
+  {
+    "name": "@mantine/core",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/core"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "@mantine/hooks": "9.7.3"
+    },
+    "dist": {
+      "shasum": "9a6daf98e305d0aa70ca0accd6067ce446019b2e",
+      "tarball": "https://registry.npmjs.org/@mantine/core/-/core-9.7.3.tgz",
+      "fileCount": 3788,
+      "integrity": "sha512-wYJ9Bd82a7HqwJ+hubFqUIocBGMuw6txzdPnnleHvv1h0NlnkESevK/WHTRh4FtOw33B5N2ADT34s3x1/8d8jg==",
+      "signatures": [
+        {
+          "sig": "MEQCIHdfmJ5eH6wmWKIWXJQISngzhhGkveQdpfAKqUfiRpbcAiAkMiePGIenrcvrNvHdOe8DMQpjSLtXrrZQem1WU9LiZA==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEYCIQDbpUjxiZA7faNr5H9kFR98zD9TSzICGTXw2bpGQ8x5AQIhAK1XGianLI/RjGFvKaqQM+fJ+cN8qv6qf2TaqQ38Nf+t"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fcore@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 10041205
+    },
+    "published": "2026-10-17T12:30:10.994Z"
+  },
+  {
+    "name": "@mantine/hooks",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/hooks"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0"
+    },
+    "dist": {
+      "shasum": "cdec77a3e912ba8949e8035e3e884911d8e9c426",
+      "tarball": "https://registry.npmjs.org/@mantine/hooks/-/hooks-9.7.3.tgz",
+      "fileCount": 473,
+      "integrity": "sha512-GMHoMS1qul1dBLIHd/N9ef2Pr8UKYYHfuM+g2ej3gYqU0kH4sTiR9FNHksoTQi0PzATRoaNlUYjjMe9rbDRw5A==",
+      "signatures": [
+        {
+          "sig": "MEUCIHi1VOrdiIF6YW5hFi/9k/80L2Hnh9RXewA0mNdVKrIMAiEA/P+zc4N9jwnhcUlaLhtH1Skh2MxkyB86ojaj1Sa+9vA=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEYCIQCr9T0QsI72SH6smTIUPQiWZoME/k9H4IBEwVofZo1gnwIhANCW48WJIi4AAxOe2RgcVu/ZWhkLEJ3a0y1KLTgNjgq9"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fhooks@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 1346939
+    },
+    "published": "2026-10-17T12:28:20.407Z"
+  },
+  {
+    "name": "@mantine/dates",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/dates"
+    },
+    "peerDependencies": {
+      "dayjs": ">=1.0.0",
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "@mantine/core": "9.7.3",
+      "@mantine/hooks": "9.7.3"
+    },
+    "dist": {
+      "shasum": "2dd33e72a5cd1abe28ac441ae57f6ec8351d68ca",
+      "tarball": "https://registry.npmjs.org/@mantine/dates/-/dates-9.7.3.tgz",
+      "fileCount": 557,
+      "integrity": "sha512-Ea7coqQp3iNs+1XTEjbcoPLP5M9DG5jcxWuEmJC21KUwpBmZKq+RyT0ovxoS8PrWBqvtu/bss8qbjE97wxyqrw==",
+      "signatures": [
+        {
+          "sig": "MEUCIElvxezTqahHaLirl/GdWZod1fPD1bGI345LehJI57T7AiEAk4wLess+8tcylf9Z4zBUEZUN7NWwFXDfX7rR+QpnfAI=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIB+ZvUQa+CgNhuIiUWI5pld4NWMHe4PkluqBin2qXGWwAiEAnIGNgPtOK8ZNKsaxXNNEcaGEixYGd/kbmcmmoJffqPQ="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fdates@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 1447150
+    },
+    "published": "2026-10-17T12:32:20.686Z"
+  },
+  {
+    "name": "@mantine/charts",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/charts"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0",
+      "recharts": ">=3.2.1",
+      "react-dom": "^19.2.0",
+      "@mantine/core": "9.7.3",
+      "@mantine/hooks": "9.7.3"
+    },
+    "dist": {
+      "shasum": "0d39e56d8e9b140be19c2d779ed811521be407ec",
+      "tarball": "https://registry.npmjs.org/@mantine/charts/-/charts-9.7.3.tgz",
+      "fileCount": 339,
+      "integrity": "sha512-p8SMOVEmQATcHIszSYdKdU6MBq8Ozdm+QJeFz+Zrtpquv0+ZVHIb262emZV544a7UmwOGdMN5DxmhQ8lewrbvg==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDdSY4MVXGha502to12lms7OUKDG18+YAp1G1PonQopHQIhAJq3uiLSx308kiPmLrkVeKFtmHLQqXVhqh8JpTtH+s8P",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIFk8f5UpewHZ8MWDCK9G/zrob8/PfRoniUMF/3lEfYVYAiEAnr/STKRpfwk+tH+RoyRpprN/K11N+sYn8CpNWjGTH/M="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fcharts@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 1393707
+    },
+    "published": "2026-10-17T12:27:41.838Z"
+  },
+  {
+    "name": "@mantine/notifications",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/notifications"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "@mantine/core": "9.7.3",
+      "@mantine/hooks": "9.7.3"
+    },
+    "dist": {
+      "shasum": "98388998b5d0c9109099cf021d7698da99cc4651",
+      "tarball": "https://registry.npmjs.org/@mantine/notifications/-/notifications-9.7.3.tgz",
+      "fileCount": 43,
+      "integrity": "sha512-ebsyKnA9oYYOtRwPD8uO2mQvHsJC3nlOt0hJsciFV+zMaS9OIoONDVN8nD5HvuAVe0UWTxxZ3i8jw7QEs4rxEA==",
+      "signatures": [
+        {
+          "sig": "MEUCIHDxjsA+JOjgJRIVc+Sg1hT+p+LhrAlO3kc/E6Vku7EpAiEAodFvPUqddgPIfYl97phcaS0RPy9KyXuy3zjoPdKWSR8=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEYCIQDkU5FHHYZ6bv+6UB+Oui/HhakChl95ivISdpWR/QU7PwIhAIT3bKqGaXgpj6Yy3Pktpp9VefnlMBOBl4fqwaX0zcQD"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fnotifications@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 241556
+    },
+    "published": "2026-10-17T12:29:23.256Z"
+  },
+  {
+    "name": "@mantine/dropzone",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/dropzone"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "@mantine/core": "9.7.3",
+      "@mantine/hooks": "9.7.3"
+    },
+    "dist": {
+      "shasum": "1ec6d4bc1a1310580fc52775a412a07e877d374f",
+      "tarball": "https://registry.npmjs.org/@mantine/dropzone/-/dropzone-9.7.3.tgz",
+      "fileCount": 40,
+      "integrity": "sha512-lU96gPAOa2wyKoSNR/+thYhvEHd+2JPGmWbnEnOKyk0FApfS3o8o2kQWdKeDtN6qi0dLuIhvdKF4myzAKnGDtw==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCnhg3B3W9I7L5O0TpMcpamgrO0JCn8drbmH2DcTwdjDwIgEP/I3me39NyyDQlDFOw/PZGkG0zzejfflabfZMFE9S8=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEYCIQCmhrBNVfDlESfBgzdOMjyAMt0Bo++tL36AgU0Lykv6XAIhAKgC9HDBdump6+l8LKftPE7o1iW0gKOBLxbOaVJqqQFt"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fdropzone@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 101636
+    },
+    "published": "2026-10-17T12:26:53.287Z"
+  },
+  {
+    "name": "@mantine/spotlight",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/spotlight"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "@mantine/core": "9.7.3",
+      "@mantine/hooks": "9.7.3"
+    },
+    "dist": {
+      "shasum": "1edec7cd4527b0e29f614f0426e4785274e36596",
+      "tarball": "https://registry.npmjs.org/@mantine/spotlight/-/spotlight-9.7.3.tgz",
+      "fileCount": 83,
+      "integrity": "sha512-vJbZDAG3LG+VTWsTtbpZBUV2O6RuBi7oI25H+WtijD/lekqYCAVJ2XWx7woyZeYOZYe3+wPGpGULrsD1xGBHfg==",
+      "signatures": [
+        {
+          "sig": "MEYCIQC6E0iz7PoyJYVvWSFCTr/JqJ/a0/aoNZPmCHfLAVOPFgIhALAQ+u6h/jZl2nG2bRK6gwzUVk5ho0s7Wc1fAvKp0CLQ",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEQCIH2Y15XAuRqg4hKd3FKjU3tzYC600w/M+Y4G4PhLuKx/AiBJ6KBR+Io5+S3J4r6Lv/IXASR1cKPxC/3rgWPB/jmjtw=="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fspotlight@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 188542
+    },
+    "published": "2026-10-17T12:30:15.413Z"
+  },
+  {
+    "name": "@mantine/carousel",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/carousel"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "@mantine/core": "9.7.3",
+      "@mantine/hooks": "9.7.3",
+      "embla-carousel": ">=8.0.0",
+      "embla-carousel-react": ">=8.0.0"
+    },
+    "dist": {
+      "shasum": "01b03fa4ae719ae4e11774b6f6481e6e9addd9da",
+      "tarball": "https://registry.npmjs.org/@mantine/carousel/-/carousel-9.7.3.tgz",
+      "fileCount": 39,
+      "integrity": "sha512-EtcWgyPUhssTEY1PDv4XBGk3piVZ9y57SZT5v/Mq2NTUjXa0vOZ7Pf1VXE9KY5MyunGWX5LtmyEyaJ3vCmlp1g==",
+      "signatures": [
+        {
+          "sig": "MEQCIGzfdJ+lZKYuIYuDFJ8cecR88/IzV+zfzrZnNJl5rjaxAiA3GmD3fgDtl7hXqtlxNLQFcZsQnpgTIU+4/vDbcWooJQ==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQD+VgWUMKt8tizVtPE4l9C1dhBoMcxJMbvSw6XTeaJSFQIgH7tDywsOKa1a8WBc2Ph3GMzV5lS3u0WqM1OC6HhX0Cg="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fcarousel@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 114782
+    },
+    "published": "2026-10-17T12:32:36.940Z"
+  },
+  {
+    "name": "@mantine/code-highlight",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/code-highlight"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "@mantine/core": "9.7.3",
+      "@mantine/hooks": "9.7.3"
+    },
+    "dist": {
+      "shasum": "4e65126bb08dcd479ea3ef30098f903b6c9ccb2e",
+      "tarball": "https://registry.npmjs.org/@mantine/code-highlight/-/code-highlight-9.7.3.tgz",
+      "fileCount": 118,
+      "integrity": "sha512-H2inO1qPsAwHw2OUYxR6jUlcd//vPyanE70/TcSpiFjI8nsg/izIxXr3PyjdG8PCBumILCxZqgDklezp8uqh8g==",
+      "signatures": [
+        {
+          "sig": "MEUCICxEAfaIUcWiHdHjFKGclBnOCMc8sz2k02S0NLSmqM1ZAiEA0j1XBgBwaExNFRW+CVtblrv47u3pzrmuamPv2lLRyWA=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQCxuTGUgh0qmNXi+SqK1dg8cDtFuN3/2Z9/dOMhr0vXgAIgQIGOe/7OEmbmpImqzeqxGKw4CLg/igwi+KHQl2HCJx8="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fcode-highlight@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 610805
+    },
+    "published": "2026-10-17T12:26:39.304Z"
+  },
+  {
+    "name": "@mantine/form",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/form"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0"
+    },
+    "dist": {
+      "shasum": "c2bdeef4f6dac206cfc4b0adec7559662756fbc1",
+      "tarball": "https://registry.npmjs.org/@mantine/form/-/form-9.7.3.tgz",
+      "fileCount": 218,
+      "integrity": "sha512-Y5FrEi3Tsh6kwZLEQV86MUs0HgrSIaoXPzwcRjsjRXdz067eeI55JVuPaXezTfHi00arTqIjgJbhBIJRHl4V+w==",
+      "signatures": [
+        {
+          "sig": "MEQCIDhbL6cG378QfUanKPCIzxp0s7BbgjicJ/qiqmP1ZB1HAiBADH8L6R9K4n6BpwEeEJtvAeMb6LasXl91o4OpOAT1fA==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIHNimKCKwdYniDhDoC1B0oz1HgXearNsc2YjlxizV1P5AiEA6DQpg/fNPt/GOwX62rtJbwket3WQFnXfov2Jo5JFneQ="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fform@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 395846
+    },
+    "published": "2026-10-17T12:32:43.655Z"
+  },
+  {
+    "name": "@mantine/modals",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/modals"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "@mantine/core": "9.7.3",
+      "@mantine/hooks": "9.7.3"
+    },
+    "dist": {
+      "shasum": "b22b86d17ab36b4f12cdecc17c6b25beb09231e9",
+      "tarball": "https://registry.npmjs.org/@mantine/modals/-/modals-9.7.3.tgz",
+      "fileCount": 37,
+      "integrity": "sha512-0VIKpWAhObk5WSvsYvSJMc89VL5yCU2SwxY4c6OoffqjG/5RlDYT+epIobAdrj2i5y95BDAjyA+ZIYf97QYtWw==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDdLlRVnQS/8W/uZkjL1xvttWePT76PT185hAZ7ceBE9gIhANgyUgSNsEAQTAj2kkN4ztt5iZlHiqGtK3AH1AOPlF9M",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIA1+DukvRIyTtoAjxDDsx5RcMi0d43jQqOtIAY4J4KxXAiEA/U69FskUckF9S4JmM9FvWBnUZNvNdZUHMLa6VfjDi3o="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2fmodals@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 79662
+    },
+    "published": "2026-10-17T12:28:04.298Z"
+  },
+  {
+    "name": "@number-flow/react",
+    "version": "0.6.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/barvian/number-flow.git",
+      "directory": "src"
+    },
+    "peerDependencies": {
+      "react": "^18 || ^19",
+      "react-dom": "^18 || ^19"
+    },
+    "dist": {
+      "integrity": "sha512-WjZuV4aA+vhRCgCF+adGLgFVVAJ8vdvq6EchRT2FiBIgElTXtDOA3YgkcMr9UHpvpS9v4H70AB5wZv0D9jc3QA==",
+      "shasum": "4ce1b7acb5cc353eb266a041472d84682b4d96a0",
+      "tarball": "https://registry.npmjs.org/@number-flow/react/-/react-0.6.2.tgz",
+      "fileCount": 9,
+      "unpackedSize": 25039,
+      "signatures": [
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQD+OfvpKEa4EK+dMmBUJ9SPfKZFW1u8QJ1Sqvb6wuQA1gIgbDHRyjt3iY+FOwqZMT/91hLbv0C7TxQ8dsDHlM3t0qQ="
+        }
+      ]
+    },
+    "published": "2026-07-18T20:09:34.648Z"
+  },
+  {
+    "name": "motion",
+    "version": "14.5.0",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/motiondivision/motion.git",
+      "type": "git"
+    },
+    "peerDependencies": {
+      "react": "^18.0.0 || ^19.0.0",
+      "react-dom": "^18.0.0 || ^19.0.0"
+    },
+    "dist": {
+      "shasum": "b1569d659b06f550e3933414cc7a1f065823b6d6",
+      "tarball": "https://registry.npmjs.org/motion/-/motion-14.5.0.tgz",
+      "fileCount": 40,
+      "integrity": "sha512-A0MinYYhYU12CHELw4+9jKPVreI43yDOprC4kAATHhF1rLfMFMhfpBR0GvdRR/IWEuKsHDnVn4fT+R2gQRyulw==",
+      "signatures": [
+        {
+          "sig": "MEQCICS6GdvV6YexoNPwYf1FCv4sK0OSgsO/3m+lkQncrnlVAiAeEtDVJacJgTb/86mfAmG21j62yfGFL/6qkDlaEiPBuQ==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEQCIGn5lliZLpHIUBLVXQ8dxirDsGtnBhfuiPsC24VpTdKAAiBL3gzdqc9Vci3ie9nsWESHA5jZDOoIeNr0xjbmuRIUZA=="
+        }
+      ],
+      "unpackedSize": 890190
+    },
+    "published": "2026-10-21T04:35:59.498Z"
+  },
+  {
+    "name": "react-virtuoso",
+    "version": "4.18.19",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/petyosi/react-virtuoso.git",
+      "type": "git",
+      "directory": "packages/react-virtuoso"
+    },
+    "peerDependencies": {
+      "react": ">=16 || >=17 || >= 18 || >= 19",
+      "react-dom": ">=16 || >=17 || >= 18 || >=19"
+    },
+    "dist": {
+      "shasum": "1cc918ba0179550f0129edd05af0d3855ec6c64b",
+      "tarball": "https://registry.npmjs.org/react-virtuoso/-/react-virtuoso-4.18.19.tgz",
+      "fileCount": 6,
+      "integrity": "sha512-dewyZisA5IiQTldh7eHM5KpI+qxi0nKRVYi2iM01XmPkNa5tjvVUKJKAIc6ted1hAK1/NFlXuhXpVYqGHHdcdQ==",
+      "signatures": [
+        {
+          "sig": "MEUCIBp0KwjlLeFOxxoS1ekhKdNpxBifuEm0q2U+ZRMw1DU2AiEA07ewa1NaNZ1+vBFwsAGqC7UfFIPw7QdwQdOzSnpS4Lc=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEYCIQDO7wQO+qLGYg96tXWgvAF5AW0dSItG4ZlIfgthNiUo0wIhAML3ef5KB9MH2gslS7QsBK183IQiR8HzFqmp9bDDi4w4"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/react-virtuoso@4.18.19",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 247201
+    },
+    "published": "2026-10-13T07:44:45.279Z"
+  },
+  {
+    "name": "lucide-react",
+    "version": "1.61.0",
+    "license": "ISC",
+    "repository": {
+      "url": "https://github.com/lucide-icons/lucide.git",
+      "type": "git",
+      "directory": "packages/lucide-react"
+    },
+    "peerDependencies": {
+      "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+      "@types/react": "*"
+    },
+    "dist": {
+      "shasum": "e17337bb8b4729b285956fe43384173bf2f8f474",
+      "tarball": "https://registry.npmjs.org/lucide-react/-/lucide-react-1.61.0.tgz",
+      "fileCount": 4388,
+      "integrity": "sha512-v2SQPPPNjnr+BlhL9Spuzmo5yR+hLkftfuE4E3jaxdNPgSH0hJKPcLJBP7yAta87jQNPsSERS59PJjCJ/CorBA==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCIfSIqlBeVsuMkuI7S2tlfqrYmZfm/rxxhb9oWVvRO/QIgY8FeaIA1I7P88tKScldLwxDvk3nrI/DhZs0wM5tXfts=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEQCIFyRzZV5IzY/fISRBM3EXbPqXTyJ/Q12JC01ELnq5Zr4AiBrjHyzFCVUL58go3bJkEOLbAHUouvm0KP4H4zLUaG49w=="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/lucide-react@1.61.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 36339823
+    },
+    "published": "2026-10-21T06:12:38.158Z"
+  },
+  {
+    "name": "react",
+    "version": "19.3.1",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/react/react.git",
+      "type": "git",
+      "directory": "packages/react"
+    },
+    "dist": {
+      "shasum": "26e9523fc36ea06be5050ebb780249a133260ad7",
+      "tarball": "https://registry.npmjs.org/react/-/react-19.3.1.tgz",
+      "fileCount": 27,
+      "integrity": "sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==",
+      "signatures": [
+        {
+          "sig": "MEUCIDFKwsaTXLOJNpD3WJ6dy5E7wkTf2QNrZgmlItJn3Cy4AiEAoAvLd5MEj+CHKGO1a81NFTiC79fQLibq7JqAPGvPC0w=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEQCIG60Jz/rQm93/m8ZTZvxX3fxIhTqB5EnASV642pG4n94AiA8XxzTRyCDS6L54HKPSciJX3l/dcW5MjgnFd4plotjSg==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/react@19.3.1",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 178663
+    },
+    "published": "2026-10-14T16:47:15.290Z"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.1",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/react/react.git",
+      "type": "git",
+      "directory": "packages/react-dom"
+    },
+    "peerDependencies": {
+      "react": "^19.3.1"
+    },
+    "dist": {
+      "shasum": "b384c53cfcbe9c2a5d09d863b98455de9d68afe2",
+      "tarball": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.1.tgz",
+      "fileCount": 43,
+      "integrity": "sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDKhj2WJ0+n7p8mYN1rC0wCt9+cD0S58A7JGp6iSDsusgIhAIzdEcBxzxMDJ5pGXlJ1Qw+Utal8MwAbfud/9Fm04N1N",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQCVaB5TV8fUMl1DUqtKZxsqf+6v/itdKfx9lY/4yHu8kwIhANkvM3hU52XEwXbe6/xrseK88Q6blbENfk+peCPY6Ih4",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/react-dom@19.3.1",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 8067632
+    },
+    "published": "2026-10-14T16:49:10.081Z"
+  },
+  {
+    "name": "vite",
+    "version": "8.3.5",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/vitejs/vite.git",
+      "type": "git",
+      "directory": "packages/vite"
+    },
+    "peerDependencies": {
+      "tsx": "^4.8.1",
+      "jiti": ">=1.21.0",
+      "less": "^4.0.0",
+      "sass": "^1.70.0",
+      "yaml": "^2.4.2",
+      "stylus": ">=0.54.8",
+      "terser": "^5.16.0",
+      "esbuild": "^0.27.0 || ^0.28.0",
+      "sugarss": "^5.0.0",
+      "@types/node": "^20.19.0 || >=22.12.0",
+      "sass-embedded": "^1.70.0",
+      "@vitejs/devtools": "^0.7.1 || ^0.8.0"
+    },
+    "dist": {
+      "shasum": "9614f66026cb92fe486cb9d3c90780b2a69fc85d",
+      "tarball": "https://registry.npmjs.org/vite/-/vite-8.3.5.tgz",
+      "fileCount": 37,
+      "integrity": "sha512-z1YpjieJ9g0ebTmQpLBv/oq9E3F9EIlOe+7LahW8SrE3LTiG3udBRUXQOlYXP9b+IC2q2phHeVxj9xGlw34OEQ==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCkxHmW9S61MNuyy4DXnW7ycbvIM+zLgMLTZY8apoH/7QIgUYeeXGnwTa1EtnZYtLxO8KeaaprYp0Zleoi3Z0ptC4o=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEQCIBXwoS/AmN2uPnY/afXHZ95+19ukFqZNAU1UXqF3/wZEAiAPd1Qjn/zSliT6hF8t80jMjz9Gjqw324wpmsbW+fGQXQ=="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/vite@8.3.5",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 2383283
+    },
+    "published": "2026-10-21T06:38:54.907Z"
+  },
+  {
+    "name": "@vitejs/plugin-react",
+    "version": "6.1.2",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/vitejs/vite-plugin-react.git",
+      "type": "git",
+      "directory": "packages/plugin-react"
+    },
+    "peerDependencies": {
+      "vite": "^8.0.0",
+      "oxc-transform-react": "^0.152.0",
+      "@rolldown/plugin-babel": "^0.1.7 || ^0.2.0",
+      "babel-plugin-react-compiler": "^1.0.0"
+    },
+    "dist": {
+      "shasum": "924d47e890a78cdf2b72f3f41fe8ab98e089b81e",
+      "tarball": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.2.tgz",
+      "fileCount": 8,
+      "integrity": "sha512-fhJNGUdscQa4HkI0xFxwonWyhnVReCPDbXI7FH7jmzpnVCrFQI7PRrhWecO263610vOrs9tr2Y4xcf8uAdFxbw==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCgpYsgjqTlOLHoKHGebF/CVGDeZXj631NLMep/SKoPxwIgQWZS4mOR+zKRUVL7FUDOOFDZyuMuywEGKrwry5GdV1Q=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQDLH4vCHenzBgP8wEYtZ9kCyKB71ErIPflGwaTlK1x9UwIgD2g6OSfhpU2OeghhDhPrAlwcunG8FMKXva4cki2sYlM="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@vitejs%2fplugin-react@6.1.2",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 46296
+    },
+    "published": "2026-10-05T10:08:27.143Z"
+  },
+  {
+    "name": "typescript",
+    "version": "7.0.2",
+    "license": "Apache-2.0",
+    "repository": {
+      "url": "git+https://github.com/microsoft/TypeScript.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "9ec773d7954a8c182c17cc5bbd575aa28bc51582",
+      "tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+      "fileCount": 416,
+      "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+      "signatures": [
+        {
+          "sig": "MEUCIHn8lVrLBbTJToaOcV3IJ0oVPREmFT5BhqmO2niVNCaSAiEAjbubGExGAYMSJN39iEgX/eDYhwBGnh/iyyGTRigXGjY=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 2497498
+    },
+    "published": "2026-07-08T15:55:18.431Z"
+  },
+  {
+    "name": "recharts",
+    "version": "3.10.1",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/recharts/recharts.git",
+      "type": "git"
+    },
+    "peerDependencies": {
+      "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+      "react-is": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+      "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+    },
+    "dist": {
+      "shasum": "e6f52c2604a38f728b6d47f95881595fa6604c6c",
+      "tarball": "https://registry.npmjs.org/recharts/-/recharts-3.10.1.tgz",
+      "fileCount": 839,
+      "integrity": "sha512-QXFrvt6IVcw7eeZCoyXTwkIJAX3Dv1nyVhMicXJ47GsGDDpcN8z6o644DibE9XjpBTThtsomLKnTV6lc+cVFUA==",
+      "signatures": [
+        {
+          "sig": "MEUCIHkKo5NwfI4YMZPz5kc0CoFg7WgGOnVEgAckHFxc7/SZAiEAk37DfzkOtzi24ERQ0TJAQidKimvDPR6MEOL1ejvM2fc=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQDGe+y+HgZAfvpTyh6NWl2SYWW4dmCwIbhWQJ9nwQMmrwIhAJuU4rB378tx0/gEwlzwATIq8QHWJg8eevxOPVg/9Nwa",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/recharts@3.10.1",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 7452998
+    },
+    "published": "2026-07-25T15:23:05.240Z"
+  },
+  {
+    "name": "dayjs",
+    "version": "1.11.23",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/iamkun/dayjs.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "b0a363506dde5f36cf5075e42ebe8115165a8c79",
+      "tarball": "https://registry.npmjs.org/dayjs/-/dayjs-1.11.23.tgz",
+      "fileCount": 451,
+      "integrity": "sha512-QDTCU0M0MxR3hQfnlDJfwekQiaanm1ubOD231u73WBckQ/fsamwRLiE2GBz6D3a/xF1NgfiDLJjXBa1hYOYTtQ==",
+      "signatures": [
+        {
+          "sig": "MEQCIB83dt0hJ9z8mt0KKSw2OwqSgFLDXhI4qeN+PWVY0QpNAiByz3gKKXkqOh1+8zv++9T03sbnaGM57ZnV4rboR4RmuQ==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIGlPicJaECap/wyNnO1jUZgFmWd6dHYr3bX4GmbCKhEmAiEApeZmN3tAH1Lo9ltKQVswLgOH/fgjzf82C+3Bs7JMpA8="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/dayjs@1.11.23",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 681693
+    },
+    "published": "2026-08-17T11:52:35.217Z"
+  },
+  {
+    "name": "embla-carousel-react",
+    "version": "8.6.0",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/davidjerleke/embla-carousel",
+      "type": "git"
+    },
+    "peerDependencies": {
+      "react": "^16.8.0 || ^17.0.1 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc"
+    },
+    "dist": {
+      "shasum": "b737042a32761c38d6614593653b3ac619477bd1",
+      "tarball": "https://registry.npmjs.org/embla-carousel-react/-/embla-carousel-react-8.6.0.tgz",
+      "fileCount": 15,
+      "integrity": "sha512-0/PjqU7geVmo6F734pmPqpyHqiM99olvyecY7zdweCw+6tKEXnrE90pBiBbMMU8s5tICemzpQ3hi5EpxzGW+JA==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCUkloTIGKWWJ2NtrDoz5BKBFMjuO0c5NFSDARd+Z+JggIgA3r+zIv4hkn9HPUsRYRG+nWUzjUrz45M9aX/7hs4Hko=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 50629
+    },
+    "published": "2025-04-04T17:37:53.976Z"
+  },
+  {
+    "name": "embla-carousel",
+    "version": "8.6.0",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/davidjerleke/embla-carousel",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "abcedff2bff36992ea8ac27cd30080ca5b6a3f58",
+      "tarball": "https://registry.npmjs.org/embla-carousel/-/embla-carousel-8.6.0.tgz",
+      "fileCount": 123,
+      "integrity": "sha512-SjWyZBHJPbqxHOzckOfo8lHisEaJWmwd23XppYFYVh10bU66/Pn5tkVkbkCMZVdbUE5eTCI2nD8OyIP4Z+uwkA==",
+      "signatures": [
+        {
+          "sig": "MEUCICWr2oM14f0T5nVEeHCucRR7PAIgr9Cb4VkLDNUwGHbeAiEAqQRVY1GRgRF0/FQLj8lFpmMs48P2GU7BDY4IAEYA43U=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 489743
+    },
+    "published": "2025-04-04T17:37:38.980Z"
+  },
+  {
+    "name": "@fontsource-variable/noto-sans-arabic",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fontsource/font-files.git",
+      "directory": "fonts/variable/noto-sans-arabic"
+    },
+    "dist": {
+      "integrity": "sha512-Rz8+DBzza3//cmN+DBQajJhx3x+Dx12eUgnQsTOgPWbOT0+In6APmE8z4I/QQnUWfAx+s8l93+60qDT5vJH1sA==",
+      "shasum": "3f799cc590e31e474aca0814482f8ecec8119f98",
+      "tarball": "https://registry.npmjs.org/@fontsource-variable/noto-sans-arabic/-/noto-sans-arabic-5.3.0.tgz",
+      "fileCount": 28,
+      "unpackedSize": 1158454,
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@fontsource-variable%2fnoto-sans-arabic@5.3.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "signatures": [
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQDExGTPNbWM3ULG0qJz9IyggujJWruALlTd83ZQtvGy2gIgPzShJRIEoE5JD0wkmxm8LUOzIkXhJIQPoBUINTFyEJk="
+        }
+      ]
+    },
+    "published": "2026-07-19T03:50:53.927Z"
+  },
+  {
+    "name": "@playwright/test",
+    "version": "1.64.1",
+    "license": "Apache-2.0",
+    "repository": {
+      "url": "git+https://github.com/microsoft/playwright.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "03d48b0cd135db5a70a6fbca54b2b91a597eed01",
+      "tarball": "https://registry.npmjs.org/@playwright/test/-/test-1.64.1.tgz",
+      "fileCount": 11,
+      "integrity": "sha512-IaYGml/nSOiZWROfPtuIL7neuu9qDOZ3TNvNljUIrhDMxiGTgPjzj/g9p9RxpS2tSepPDRY+UwAaEeiKtUvIAg==",
+      "signatures": [
+        {
+          "sig": "MEQCIBTVqvK4UiyJ5CglJHnbSW85qB8cNoqbhAThIX1peUFIAiB4hJM1a9NVhdU6G8+UJeNZVN9rgbxqmLviU1wbPXpT6Q==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIFZ/EP/h9yD11u7KZbhZWNH/lTVqDh7/9sWFIuXVYipbAiEAlVzSqPwCP7m7jg5t7q+m4n5AgE/M9kydfpma0U6pajE=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@playwright%2ftest@1.64.1",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 28542
+    },
+    "published": "2026-10-14T11:58:13.696Z"
+  },
+  {
+    "name": "@axe-core/playwright",
+    "version": "4.14.0",
+    "license": "MPL-2.0",
+    "repository": {
+      "url": "git+https://github.com/dequelabs/axe-core-npm.git",
+      "type": "git"
+    },
+    "peerDependencies": {
+      "playwright-core": ">= 1.0.0"
+    },
+    "dist": {
+      "shasum": "a137c84ad18cf1ec17b5458f300a6e370444fbe5",
+      "tarball": "https://registry.npmjs.org/@axe-core/playwright/-/playwright-4.14.0.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-SGUhG5PIHd2eMdpgBF2PyQLOhX+qyDR2PT4cmoS4Qk2ak+jX/rrSvst9l0PGv5WTHolKpUMvVmoHpr4cZgf1RQ==",
+      "signatures": [
+        {
+          "sig": "MEUCIA6w+BJnQjek8kis9DAxpI+nTiVzNlrife7JtR9OoyPvAiEAvzyqSs0pKu91sVkthRxFunInJn+1qqRsmHzLyD3Dr9w=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQDoAKPY1ukjPDtn9DVn8SdcXqBbZaNsr6e6UyYWa2pLJwIhAJOA1Ry10YrrfFUf52esVfoPJggo7bGYHY3NJZF9j+tN",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@axe-core%2fplaywright@4.14.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 47795
+    },
+    "published": "2026-10-15T13:33:17.706Z"
+  },
+  {
+    "name": "mantine-datatable",
+    "version": "9.4.0",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/icflorescu/mantine-datatable.git",
+      "type": "git"
+    },
+    "peerDependencies": {
+      "clsx": ">=2",
+      "react": ">=19",
+      "react-dom": ">=19",
+      "@mantine/core": ">=9.0",
+      "@mantine/hooks": ">=9.0"
+    },
+    "dist": {
+      "shasum": "b71a2ee0dc9c998926d80f254d9d5926fdfdb741",
+      "tarball": "https://registry.npmjs.org/mantine-datatable/-/mantine-datatable-9.4.0.tgz",
+      "integrity": "sha512-yFym2vlboGaqSD1bqXVtADMWg8YJtdyc3USQUTSqcLgEWzRPQqK/9WBBU0+XVE2qvMHZfiunuJK+UZV4aa2KmA==",
+      "fileCount": 10,
+      "unpackedSize": 705269,
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/mantine-datatable@9.4.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "signatures": [
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQCH4aiuVt8QgfuXqipIEv2km1KFIXEbJH2/E6BFqjHsXgIgJsLTer1dDj2RQ29si3OxXeXiYkE4kUCzIDwZctRE90M="
+        }
+      ]
+    },
+    "published": "2026-07-15T10:29:16.561Z"
+  },
+  {
+    "name": "@mantine/tiptap",
+    "version": "9.7.3",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/mantinedev/mantine.git",
+      "type": "git",
+      "directory": "packages/@mantine/tiptap"
+    },
+    "peerDependencies": {
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "@mantine/core": "9.7.3",
+      "@tiptap/react": ">=3.3.0",
+      "@mantine/hooks": "9.7.3",
+      "@tiptap/extension-link": ">=3.3.0"
+    },
+    "dist": {
+      "shasum": "f0e5de98428238a1ad0ed7fbe7121c6bec1907a3",
+      "tarball": "https://registry.npmjs.org/@mantine/tiptap/-/tiptap-9.7.3.tgz",
+      "fileCount": 116,
+      "integrity": "sha512-4qIWVfKh44cHy+j/6VsE52cusfAK1y8j7Z9ONQx1IrAhzAC8pIAnNL0zQlztWbu460lWKoIG8WmJxgGapjfZxg==",
+      "signatures": [
+        {
+          "sig": "MEQCIF2MpinAttcZo5CB4SkMv+RljV3N3ZBrsP4od+LdnFzVAiBQUu/l3R3II1XRZxDQ8mQDRIF9KUvm2kqzL63STe6cKw==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEQCIAD1DwTjR9+6pVMj53WYc6WU53iZyHIQah6p6lHFLepbAiBcuZgQNwth+i9dnTi08jTVpF2es6mTdEwunDykmhCvmQ=="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mantine%2ftiptap@9.7.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 674210
+    },
+    "published": "2026-10-17T12:37:05.257Z"
+  },
+  {
+    "name": "@tiptap/react",
+    "version": "3.32.0",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/ueberdosis/tiptap",
+      "type": "git",
+      "directory": "packages/react"
+    },
+    "peerDependencies": {
+      "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+      "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0",
+      "@tiptap/pm": "3.32.0",
+      "@tiptap/core": "3.32.0",
+      "@types/react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+      "@types/react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+    },
+    "dist": {
+      "shasum": "2bc0c4c2c03ad337482d23871cabee315605d972",
+      "tarball": "https://registry.npmjs.org/@tiptap/react/-/react-3.32.0.tgz",
+      "fileCount": 51,
+      "integrity": "sha512-+iS9RKj6Ve8SXqJ49xptDiifF7PQXmUOh4cjMu+BCXXqKphQkiUccvbWYAeOJCTceM01wWgFhrpfy8qG+CHJYw==",
+      "signatures": [
+        {
+          "sig": "MEYCIQChD4iQwCaBBVJXBNgBz5KYJUe2EroT1RA/ITxar6CGUQIhAPvjXXjutSjSDgm3KKWpiVeUCnkxbgJZZ4HH92l2wc3E",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEQCIAjmlEork3ItRKNJktBnQ4/EzefqWtndHRs8yK5Z6NvgAiBi8VwWP8Lf8Vomxz6tTy00S790L2xFD+oWjyIMZgBCEQ=="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tiptap%2freact@3.32.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 588528
+    },
+    "published": "2026-10-13T12:07:36.770Z"
+  },
+  {
+    "name": "@tiptap/pm",
+    "version": "3.32.0",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/ueberdosis/tiptap",
+      "type": "git",
+      "directory": "packages/pm"
+    },
+    "dist": {
+      "shasum": "6acb87b907ea4f93ba70b00e295fd7e50f8f3dcc",
+      "tarball": "https://registry.npmjs.org/@tiptap/pm/-/pm-3.32.0.tgz",
+      "fileCount": 69,
+      "integrity": "sha512-H9eN+xHFboJybE7KPGVsu24S8aBlCIgYz38vCHRSnNv17nwmqm06owq/IQ5scza0n3Y7IfUfpgPOtm9SgeHmNQ==",
+      "signatures": [
+        {
+          "sig": "MEUCIQDFTU51STVS71YAfPvvcPuwnr59IZvzdROLR1PCLyvmAAIgUprAc502xnV0KedoTxDTsqjpVUEQ6jNEbe9tgzpSHkU=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEQCIEl/Gpn41sI/7zVXQkjE3rlf6uDRi67pXGqg+zgHQskaAiBMVtVET0tZItnH9nzX00qQgRhwQ0/ASabGvqcm6xrOKA=="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tiptap%2fpm@3.32.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 14814
+    },
+    "published": "2026-10-13T12:07:36.630Z"
+  },
+  {
+    "name": "@tiptap/starter-kit",
+    "version": "3.32.0",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/ueberdosis/tiptap",
+      "type": "git",
+      "directory": "packages/starter-kit"
+    },
+    "dist": {
+      "shasum": "e4e4f93110f8122ead00d330aa272b9eddd19ab5",
+      "tarball": "https://registry.npmjs.org/@tiptap/starter-kit/-/starter-kit-3.32.0.tgz",
+      "fileCount": 13,
+      "integrity": "sha512-aPYxaevci4PgMrTLsg+baiqI7M1ICd4V9H+zTTdrqs8OUZIbAvj/pNDuHU8uWZyKMu3Dh72t2D6ZdqRu/6aSWw==",
+      "signatures": [
+        {
+          "sig": "MEQCIDMaZmXve2CdIUXskl1LbU64egEpT5h5/A6rLaf0cw+MAiB9y6rFhAfXZV+LcpP7rQKAIbwt/hw1WoBbjsv4ruS9pw==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQC4Hv96kChkWt7HhW1gPwCDUDeeA1RPXXdUjJgViuJNowIgPBUeXX9ohifY0SUu7uZ23M0O+SZPZFLsKC1wG79a2vM="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tiptap%2fstarter-kit@3.32.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 54007
+    },
+    "published": "2026-10-13T12:08:27.652Z"
+  },
+  {
+    "name": "@types/react",
+    "version": "19.3.0",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "type": "git",
+      "directory": "types/react"
+    },
+    "peerDependencies": {},
+    "dist": {
+      "shasum": "3b3ce8d8c1627fb5ccd4dadd57ef445c5a153b77",
+      "tarball": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+      "fileCount": 18,
+      "integrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+      "signatures": [
+        {
+          "sig": "MEQCICO9E9W9sN+6oHDGno2fJYJ8YEsNOa01MoJJmauunAjGAiAVusL8FBYYoRgnVrnz0RY2KMSjP1OlJ7GunY0YhIr0GA==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQCG/2kbQCjMBz9wJNsFnPRUQFtQzxGIbkrwTxQ3ZYlQrwIhAKZAxRpE46wtsHz27OGDgRmXLV83Q5GivNToLaMzF7Q2",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 408108
+    },
+    "published": "2026-09-09T18:08:49.750Z"
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "type": "git",
+      "directory": "types/react-dom"
+    },
+    "peerDependencies": {
+      "@types/react": "^19.3.0"
+    },
+    "dist": {
+      "shasum": "90294a9266efd928a5266f2110d60d5dba5015d2",
+      "tarball": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz",
+      "fileCount": 19,
+      "integrity": "sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDeggFlao9be7yHQ/b9bEJ/aNUgA9ewpLiMScDNunzitAIhAKh8Ct2ZYAjnfZI/KeuIMkZ0Qz2vlOS1C1PkdT2UacvQ",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEYCIQDfRDroOzjwBEz1yqXRbBWKCYOt7p/DKB+WIMPoMWCfUAIhAMPChj/cPQOALZVIGvV0h+QYQERrlQ5RJZb3dptWvQFV",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 32862
+    },
+    "published": "2026-09-09T18:07:51.886Z"
+  },
+  {
+    "name": "@types/node",
+    "version": "26.6.5",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "type": "git",
+      "directory": "types/node"
+    },
+    "peerDependencies": {},
+    "dist": {
+      "shasum": "cb35209e7767c503551b5fa42a48231c7441d979",
+      "tarball": "https://registry.npmjs.org/@types/node/-/node-26.6.5.tgz",
+      "fileCount": 109,
+      "integrity": "sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==",
+      "signatures": [
+        {
+          "sig": "MEUCICpys+wvg3B8d5GwZcaXjRtY1v/tZfhWxMGpWP4IOdAdAiEAgcy71FiMA4XW+gZuA1uwcohcHn4HX5XA7kP5acWz1ug=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEQCIEiHeuNSZyMm4RJY9UUaiZV+sUiEfPPm3I+s3NOb0TLkAiAr2YOepe3DCFvKZJpzhpAhACkiMUzzfENI/Lh148EbgA=="
+        }
+      ],
+      "unpackedSize": 2546175
+    },
+    "published": "2026-10-09T18:46:47.657Z"
+  },
+  {
+    "name": "clsx",
+    "version": "2.1.1",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/lukeed/clsx.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "eed397c9fd8bd882bfb18deab7102049a2f32999",
+      "tarball": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz",
+      "fileCount": 10,
+      "integrity": "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCt4cimtFNdDPY5NOqLXbuPrCyxPFP7Pym/n1+tTeA16wIgUvCZBteiHTXv3GZRuhWQ2BqaV+qtiZYbi4c0T7jw87M=",
+          "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+        }
+      ],
+      "unpackedSize": 8555
+    },
+    "published": "2024-04-23T05:26:04.645Z"
+  },
+  {
+    "name": "@tiptap/extension-link",
+    "version": "3.32.0",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/ueberdosis/tiptap",
+      "type": "git",
+      "directory": "packages/extension-link"
+    },
+    "peerDependencies": {
+      "@tiptap/pm": "3.32.0",
+      "@tiptap/core": "3.32.0"
+    },
+    "dist": {
+      "shasum": "1b19e95ce4fbfaf186c5af8bae4ea4165f83c710",
+      "tarball": "https://registry.npmjs.org/@tiptap/extension-link/-/extension-link-3.32.0.tgz",
+      "fileCount": 19,
+      "integrity": "sha512-DRdQSgWPSEjrDg5EDBB5yxRygHtUVLhceVGzAsTz8RziiFyvcwAvzBHCO9hd9jutjCXQ2DLIuZB8P+aHhFWnpg==",
+      "signatures": [
+        {
+          "sig": "MEQCIFHLA6bWO+5qrPU/20dVqsQEqJs42B6+cGyA5DbGIoHpAiBVxuxCsHNSWD63rX+gul7VyK0Zstd6RTh0vK/SAA+9dg==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIQC6+vdvay0sUI8Er4W5UeKl1oXcGTM8q800slhJ00m6VAIgFTMetVsM/u09vJ2uB6z2vjRKJh4LRmhspb2L/l3nA6o="
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tiptap%2fextension-link@3.32.0",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 188041
+    },
+    "published": "2026-10-13T12:08:40.880Z"
+  }
+]

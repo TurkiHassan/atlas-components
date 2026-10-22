@@ -1,0 +1,14 @@
+{
+  "checkedOn": "2026-10-22",
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "browserTests": 21,
+  "failures": 0,
+  "packageVersion": "1.1.0",
+  "standalonePackage": "passed",
+  "fontRoles": {
+    "headings": "Free Palestine, local only",
+    "body": "Noto Sans Arabic"
+  },
+  "note": "Chrome desktop and emulated touch, scoped automated WCAG scans, no physical Android or full screen-reader audit."
+}

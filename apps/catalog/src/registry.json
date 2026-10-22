@@ -1,0 +1,562 @@
+[
+  {
+    "id": "button",
+    "title": "الأزرار",
+    "category": "basics",
+    "description": "أحجام وحالات وأشكال متناسقة.",
+    "docs": "https://mantine.dev/core/button/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "action-icon",
+    "title": "أزرار الأيقونات",
+    "category": "basics",
+    "description": "أفعال صغيرة بتسميات واضحة.",
+    "docs": "https://mantine.dev/core/action-icon/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "badge",
+    "title": "الشارات",
+    "category": "basics",
+    "description": "تمييز الحالة والمصدر والأولوية.",
+    "docs": "https://mantine.dev/core/badge/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "avatar",
+    "title": "الصور الرمزية",
+    "category": "basics",
+    "description": "مجموعات مستخدمين دون صور خارجية.",
+    "docs": "https://mantine.dev/core/avatar/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "text",
+    "title": "الطباعة",
+    "category": "basics",
+    "description": "تدرج واضح للعناوين والنصوص.",
+    "docs": "https://mantine.dev/core/text/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "card",
+    "title": "البطاقات",
+    "category": "basics",
+    "description": "حاوية جاهزة للمحتوى والإجراءات.",
+    "docs": "https://mantine.dev/core/card/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "theme-icon",
+    "title": "أيقونات الحالة",
+    "category": "basics",
+    "description": "حاويات دلالية للأيقونات.",
+    "docs": "https://mantine.dev/core/theme-icon/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "divider",
+    "title": "الفواصل",
+    "category": "basics",
+    "description": "تقسيم هادئ للمحتوى.",
+    "docs": "https://mantine.dev/core/divider/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "kbd",
+    "title": "اختصارات المفاتيح",
+    "category": "basics",
+    "description": "عرض الاختصارات بشكل واضح.",
+    "docs": "https://mantine.dev/core/kbd/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "code",
+    "title": "مقاطع الشيفرة",
+    "category": "basics",
+    "description": "كتل شيفرة قابلة للقراءة.",
+    "docs": "https://mantine.dev/core/code/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "blockquote",
+    "title": "الاقتباسات",
+    "category": "basics",
+    "description": "محتوى مميز بخطوط متوازنة.",
+    "docs": "https://mantine.dev/core/blockquote/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "list",
+    "title": "القوائم",
+    "category": "basics",
+    "description": "قوائم دلالية للمعلومات المتتابعة.",
+    "docs": "https://mantine.dev/core/list/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "text-input",
+    "title": "حقول النص",
+    "category": "forms",
+    "description": "تسمية ووصف وحالة خطأ مدمجة.",
+    "docs": "https://mantine.dev/core/text-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "password-input",
+    "title": "كلمة المرور",
+    "category": "forms",
+    "description": "كشف كلمة المرور وإخفاؤها.",
+    "docs": "https://mantine.dev/core/password-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "number-input",
+    "title": "إدخال الأرقام",
+    "category": "forms",
+    "description": "حدود وتنسيق للأعداد.",
+    "docs": "https://mantine.dev/core/number-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "textarea",
+    "title": "النصوص الطويلة",
+    "category": "forms",
+    "description": "مساحة كتابة تتمدد مع المحتوى.",
+    "docs": "https://mantine.dev/core/textarea/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "select",
+    "title": "الاختيار والبحث",
+    "category": "forms",
+    "description": "قائمة بحث واختيار مع دعم RTL.",
+    "docs": "https://mantine.dev/core/select/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "multi-select",
+    "title": "الاختيار المتعدد",
+    "category": "forms",
+    "description": "عدة اختيارات في حقل واحد.",
+    "docs": "https://mantine.dev/core/multi-select/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "autocomplete",
+    "title": "الإكمال التلقائي",
+    "category": "forms",
+    "description": "اقتراحات أثناء الكتابة.",
+    "docs": "https://mantine.dev/core/autocomplete/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "tags-input",
+    "title": "الوسوم",
+    "category": "forms",
+    "description": "إضافة قيم حرة من لوحة المفاتيح.",
+    "docs": "https://mantine.dev/core/tags-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "checkbox",
+    "title": "مربعات الاختيار",
+    "category": "forms",
+    "description": "اختيارات مستقلة وحالة مختلطة.",
+    "docs": "https://mantine.dev/core/checkbox/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "radio",
+    "title": "الاختيار الأحادي",
+    "category": "forms",
+    "description": "اختيار واحد من مجموعة مترابطة.",
+    "docs": "https://mantine.dev/core/radio/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "switch",
+    "title": "مفاتيح التبديل",
+    "category": "forms",
+    "description": "إعدادات واضحة تعمل فورًا.",
+    "docs": "https://mantine.dev/core/switch/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "slider",
+    "title": "شريط النطاق",
+    "category": "forms",
+    "description": "اختيار قيمة رقمية بالسحب أو المفاتيح.",
+    "docs": "https://mantine.dev/core/slider/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "segmented-control",
+    "title": "الاختيار المقسّم",
+    "category": "forms",
+    "description": "تبديل سريع بين خيارات قليلة.",
+    "docs": "https://mantine.dev/core/segmented-control/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "pin-input",
+    "title": "رمز التحقق",
+    "category": "forms",
+    "description": "إدخال رمز مجزّأ بأرقام واضحة.",
+    "docs": "https://mantine.dev/core/pin-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "color-input",
+    "title": "اختيار اللون",
+    "category": "forms",
+    "description": "لون مع لوحة اختيار جاهزة.",
+    "docs": "https://mantine.dev/core/color-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "file-input",
+    "title": "اختيار الملفات",
+    "category": "forms",
+    "description": "اختيار محلي دون رفع تلقائي.",
+    "docs": "https://mantine.dev/core/file-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "rating",
+    "title": "التقييم",
+    "category": "forms",
+    "description": "نجوم قابلة للاستخدام بلوحة المفاتيح.",
+    "docs": "https://mantine.dev/core/rating/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "form",
+    "title": "نموذج مع تحقق",
+    "category": "forms",
+    "description": "إدارة نموذج عبر Mantine Form.",
+    "docs": "https://mantine.dev/form/use-form/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "tabs",
+    "title": "التبويبات",
+    "category": "navigation",
+    "description": "تنقل بين مساحات مترابطة.",
+    "docs": "https://mantine.dev/core/tabs/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "accordion",
+    "title": "الأقسام القابلة للطي",
+    "category": "navigation",
+    "description": "عرض المحتوى حسب الحاجة.",
+    "docs": "https://mantine.dev/core/accordion/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "breadcrumbs",
+    "title": "مسار التصفح",
+    "category": "navigation",
+    "description": "توضيح موقع المستخدم في التسلسل.",
+    "docs": "https://mantine.dev/core/breadcrumbs/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "pagination",
+    "title": "ترقيم الصفحات",
+    "category": "navigation",
+    "description": "الانتقال بين صفحات المحتوى.",
+    "docs": "https://mantine.dev/core/pagination/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "stepper",
+    "title": "خطوات العمل",
+    "category": "navigation",
+    "description": "مراحل متتابعة مع تنقل فعلي.",
+    "docs": "https://mantine.dev/core/stepper/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "nav-link",
+    "title": "روابط التنقل",
+    "category": "navigation",
+    "description": "تسلسل جانبي نشط وقابل للتوسيع.",
+    "docs": "https://mantine.dev/core/nav-link/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "menu",
+    "title": "القوائم المنسدلة",
+    "category": "overlays",
+    "description": "قائمة إجراءات مع إدارة التركيز.",
+    "docs": "https://mantine.dev/core/menu/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "modal",
+    "title": "الحوار",
+    "category": "overlays",
+    "description": "حوار يحصر التركيز ويغلق بـEscape.",
+    "docs": "https://mantine.dev/core/modal/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "drawer",
+    "title": "اللوحة الجانبية",
+    "category": "overlays",
+    "description": "تفاصيل وإعدادات في مساحة مستقلة.",
+    "docs": "https://mantine.dev/core/drawer/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "popover",
+    "title": "المحتوى العائم",
+    "category": "overlays",
+    "description": "معلومات سياقية بجوار الإجراء.",
+    "docs": "https://mantine.dev/core/popover/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "tooltip",
+    "title": "التلميحات",
+    "category": "overlays",
+    "description": "نص مساعد عند التركيز أو التحويم.",
+    "docs": "https://mantine.dev/core/tooltip/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "hover-card",
+    "title": "بطاقة التعريف",
+    "category": "overlays",
+    "description": "معلومات إضافية عند التحويم.",
+    "docs": "https://mantine.dev/core/hover-card/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "alert",
+    "title": "التنبيهات",
+    "category": "feedback",
+    "description": "رسائل حالة دون تعطيل العمل.",
+    "docs": "https://mantine.dev/core/alert/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "notification",
+    "title": "الإشعارات",
+    "category": "feedback",
+    "description": "إشعار محلي من النظام الرسمي.",
+    "docs": "https://mantine.dev/x/notifications/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "progress",
+    "title": "مؤشر التقدم",
+    "category": "feedback",
+    "description": "حالة تقدم بمسمى مفهوم.",
+    "docs": "https://mantine.dev/core/progress/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "ring-progress",
+    "title": "التقدم الدائري",
+    "category": "feedback",
+    "description": "نسبة ظاهرة بصريًا ونصيًا.",
+    "docs": "https://mantine.dev/core/ring-progress/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "loader",
+    "title": "مؤشرات التحميل",
+    "category": "feedback",
+    "description": "حالة انتظار مع إعلان نصي.",
+    "docs": "https://mantine.dev/core/loader/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "skeleton",
+    "title": "التحميل الهيكلي",
+    "category": "feedback",
+    "description": "حجز مساحة المحتوى قبل وصوله.",
+    "docs": "https://mantine.dev/core/skeleton/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "spoiler",
+    "title": "إظهار المزيد",
+    "category": "feedback",
+    "description": "اختصار المحتوى الطويل.",
+    "docs": "https://mantine.dev/core/spoiler/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "timeline",
+    "title": "الخط الزمني",
+    "category": "data",
+    "description": "عرض الأحداث بترتيب واضح.",
+    "docs": "https://mantine.dev/core/timeline/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "table",
+    "title": "الجداول البسيطة",
+    "category": "data",
+    "description": "بيانات دلالية بتنسيق متناسق.",
+    "docs": "https://mantine.dev/core/table/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "data-table",
+    "title": "جدول البيانات",
+    "category": "data",
+    "description": "فرز وصفحات من Mantine DataTable.",
+    "docs": "https://icflorescu.github.io/mantine-datatable/",
+    "provider": "Mantine DataTable"
+  },
+  {
+    "id": "tree",
+    "title": "شجرة الملفات",
+    "category": "data",
+    "description": "عرض هرمي لمجلدات المشروع.",
+    "docs": "https://mantine.dev/core/tree/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "number-formatter",
+    "title": "تنسيق القيم",
+    "category": "data",
+    "description": "تنسيق مالي ورقمي من المكتبة.",
+    "docs": "https://mantine.dev/core/number-formatter/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "date-picker-input",
+    "title": "اختيار التاريخ",
+    "category": "dates",
+    "description": "تقويم ميلادي عربي ضمن حقل.",
+    "docs": "https://mantine.dev/dates/date-picker-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "date-range",
+    "title": "النطاق الزمني",
+    "category": "dates",
+    "description": "اختيار تاريخ بداية ونهاية.",
+    "docs": "https://mantine.dev/dates/date-picker-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "date-picker",
+    "title": "التقويم",
+    "category": "dates",
+    "description": "تقويم تفاعلي دون حقل إدخال.",
+    "docs": "https://mantine.dev/dates/date-picker/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "month-picker-input",
+    "title": "اختيار الشهر",
+    "category": "dates",
+    "description": "تحديد شهر التقارير مباشرة.",
+    "docs": "https://mantine.dev/dates/month-picker-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "time-input",
+    "title": "إدخال الوقت",
+    "category": "dates",
+    "description": "وقت محلي بصيغة مستقلة.",
+    "docs": "https://mantine.dev/dates/time-input/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "area-chart",
+    "title": "الرسم المساحي",
+    "category": "advanced",
+    "description": "اتجاه البيانات من Mantine Charts.",
+    "docs": "https://mantine.dev/charts/area-chart/",
+    "provider": "Mantine Charts"
+  },
+  {
+    "id": "bar-chart",
+    "title": "رسم الأعمدة",
+    "category": "advanced",
+    "description": "مقارنة فئات وبيانات منفصلة.",
+    "docs": "https://mantine.dev/charts/bar-chart/",
+    "provider": "Mantine Charts"
+  },
+  {
+    "id": "donut-chart",
+    "title": "الرسم الدائري",
+    "category": "advanced",
+    "description": "توزيع بسيط بنص مركزي.",
+    "docs": "https://mantine.dev/charts/donut-chart/",
+    "provider": "Mantine Charts"
+  },
+  {
+    "id": "dropzone",
+    "title": "إسقاط الملفات",
+    "category": "advanced",
+    "description": "اختيار وسحب ملفات محليًا.",
+    "docs": "https://mantine.dev/x/dropzone/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "carousel",
+    "title": "عارض الشرائح",
+    "category": "advanced",
+    "description": "تنقل بين بطاقات من Embla وMantine.",
+    "docs": "https://mantine.dev/x/carousel/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "spotlight",
+    "title": "لوحة الأوامر",
+    "category": "advanced",
+    "description": "بحث وتنقل سريع مع اختصار مفاتيح.",
+    "docs": "https://mantine.dev/x/spotlight/",
+    "provider": "Mantine"
+  },
+  {
+    "id": "number-flow",
+    "title": "الأرقام المتحركة",
+    "category": "advanced",
+    "description": "انتقال جاهز بين القيم مع تفضيل تقليل الحركة.",
+    "docs": "https://number-flow.barvian.me/",
+    "provider": "NumberFlow"
+  },
+  {
+    "id": "virtual-list",
+    "title": "القوائم الكبيرة",
+    "category": "advanced",
+    "description": "10,000 سجل بعرض افتراضي من Virtuoso.",
+    "docs": "https://virtuoso.dev/",
+    "provider": "React Virtuoso"
+  },
+  {
+    "id": "motion",
+    "title": "حركة التخطيط",
+    "category": "advanced",
+    "description": "انتقالات من Motion مع مراعاة تقليل الحركة.",
+    "docs": "https://motion.dev/docs/react",
+    "provider": "Motion"
+  },
+  {
+    "id": "rich-text-editor",
+    "title": "محرر النصوص",
+    "category": "advanced",
+    "description": "محرر جاهز من Mantine وTiptap.",
+    "docs": "https://mantine.dev/x/tiptap/",
+    "provider": "Mantine + Tiptap"
+  },
+  {
+    "id": "icons",
+    "title": "الأيقونات",
+    "category": "basics",
+    "description": "مجموعة Lucide متجانسة قابلة للاستيراد الفردي.",
+    "docs": "https://lucide.dev/",
+    "provider": "Lucide"
+  }
+]

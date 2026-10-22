@@ -1,0 +1,11 @@
+{
+  "checkedOn": "2026-10-22",
+  "status": "passed",
+  "testedImports": 18,
+  "cssEntryPoints": 10,
+  "upstreamIdentity": [
+    "Button",
+    "Modal"
+  ],
+  "note": "Fresh consumer installs the tarball with exact React versions, imports every JS entry, resolves CSS entries, and checks upstream identity. No upstream install scripts executed."
+}

@@ -1,0 +1,29 @@
+{
+  "name": "atlas-component-library",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run build -w @atlas/ui && node scripts/dev.mjs",
+    "build": "npm run build -w @atlas/ui && npm run build -w @atlas/catalog && npm run build -w @atlas/compare && node scripts/prepare-comparison.mjs",
+    "typecheck": "npm run build -w @atlas/ui && tsc -p apps/catalog/tsconfig.json --noEmit && tsc -p apps/compare/tsconfig.json --noEmit",
+    "test": "playwright test",
+    "provenance": "node scripts/provenance.mjs",
+    "check": "npm run typecheck && npm run build && npm run test",
+    "pack": "npm run build -w @atlas/ui && npm pack -w @atlas/ui --pack-destination artifacts",
+    "examples": "node scripts/generate-examples.mjs",
+    "test:package": "npm run pack && node scripts/smoke-package.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@axe-core/playwright": "4.14.0",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}

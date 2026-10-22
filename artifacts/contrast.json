@@ -1,0 +1,36 @@
+[
+  {
+    "theme": "dark",
+    "pairs": [
+      {
+        "label": "secondary text",
+        "color": "rgb(168, 183, 173)",
+        "background": "rgb(21, 29, 25)",
+        "ratio": 8.22
+      },
+      {
+        "label": "placeholder",
+        "color": "rgb(168, 183, 173)",
+        "background": "rgb(46, 46, 46)",
+        "ratio": 6.49
+      }
+    ]
+  },
+  {
+    "theme": "light",
+    "pairs": [
+      {
+        "label": "secondary text",
+        "color": "rgb(94, 107, 99)",
+        "background": "rgb(255, 255, 255)",
+        "ratio": 5.59
+      },
+      {
+        "label": "placeholder",
+        "color": "rgb(102, 115, 107)",
+        "background": "rgb(255, 255, 255)",
+        "ratio": 4.97
+      }
+    ]
+  }
+]

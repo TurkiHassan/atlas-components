@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Atlas Free Palestine';
+  src: local('Free Palestine'), local('FreePalestine-Regular');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  size-adjust: 185%;
+  ascent-override: 75%;
+  descent-override: 40%;
+  line-gap-override: 0%;
+}
+
+:root {
+  --atlas-font-family: 'Noto Sans Arabic Variable', system-ui, sans-serif;
+  --atlas-heading-font-family: 'Atlas Free Palestine', 'Noto Sans Arabic Variable', system-ui, sans-serif;
+}
+
+:root[data-atlas-font='noto'] {
+  --atlas-font-family: 'Noto Sans Arabic Variable', system-ui, sans-serif;
+  --atlas-heading-font-family: 'Noto Sans Arabic Variable', system-ui, sans-serif;
+}

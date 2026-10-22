@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@import '@heroui/styles';
+@import '@atlas/ui/fonts.css';
+@import '@fontsource-variable/noto-sans-arabic';
+@import './preview.css';
+
+@theme inline {
+  --font-sans: var(--atlas-font-family);
+}
+
+body { background: var(--background); color: var(--foreground); }
+
+:root[data-theme='light'] {
+  --accent: #0067c0;
+  --accent-foreground: #ffffff;
+  --accent-hover: #0059a8;
+  --muted: #62626b;
+}
+
+h1, h2, h3 { font-family: var(--atlas-heading-font-family); font-weight: 400; }

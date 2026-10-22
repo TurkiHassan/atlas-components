@@ -1,0 +1,35 @@
+{
+  "available": true,
+  "checkedOn": "2026-10-22",
+  "entries": [
+    {
+      "name": "HeroUI 3.2.6",
+      "jsBytes": 746585,
+      "jsGzip": 226304,
+      "cssBytes": 435088,
+      "cssGzip": 41522,
+      "fontBytes": 0,
+      "files": [
+        "compare-assets/hero-CG8QZmEI.css",
+        "compare-assets/hero-CdRrIgfQ.js",
+        "compare-assets/settings-DczhsLQ9.js"
+      ]
+    },
+    {
+      "name": "Mantine 9.7.3 + DataTable",
+      "jsBytes": 598952,
+      "jsGzip": 179781,
+      "cssBytes": 304576,
+      "cssGzip": 44655,
+      "fontBytes": 0,
+      "files": [
+        "compare-assets/mantine-C0KYonbu.js",
+        "compare-assets/mantine-cFB9WMZ2.css",
+        "compare-assets/noto-sans-arabic-BO8DrXkz.css",
+        "compare-assets/noto-sans-arabic-Bc1h62-A.js",
+        "compare-assets/settings-DczhsLQ9.js"
+      ]
+    }
+  ],
+  "method": "Sum of each entry and statically imported JS/CSS file, gzip per file. All four demo tasks are bundled per library. Font binaries, HTML, comparison shell and network overhead excluded. Mantine uses DataTable; HeroUI uses its own Table and Pagination. This is a fixture size comparison, not a speed benchmark."
+}

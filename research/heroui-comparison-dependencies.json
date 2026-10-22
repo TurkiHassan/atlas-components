@@ -1,0 +1,280 @@
+[
+  {
+    "name": "@heroui/react",
+    "version": "3.2.6",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": ">=19.0.0",
+      "react-dom": ">=19.0.0",
+      "react-aria": "^3.52.1",
+      "tailwindcss": ">=4.0.0",
+      "@react-aria/ssr": "^3.10.1",
+      "@react-aria/utils": "^3.34.1",
+      "react-aria-components": "^1.21.1",
+      "@internationalized/date": "^3.12.4"
+    },
+    "repository": {
+      "url": "git+https://github.com/heroui-inc/heroui.git",
+      "type": "git",
+      "directory": "packages/react"
+    },
+    "dist": {
+      "shasum": "9f0eb79012f8be8540798d06efe0abee32b54234",
+      "tarball": "https://registry.npmjs.org/@heroui/react/-/react-3.2.6.tgz",
+      "fileCount": 421,
+      "integrity": "sha512-KBhUUUdX4571SSjwpuBPEFZTYAw/tmGezTIsTnjIOlXDZkjWACfhFe6ibtReO+xTkUcfxCV1r3cF00/3OPlhhw==",
+      "signatures": [
+        {
+          "sig": "MEQCIHAQPq2c0QNa9+qW+Z7zlDNUmkEbBL5A8OHPHvUTfQz8AiADRJqammPDZl7G/5Y8ftQ45F2LWxzw+fpTQBxM62MkCA==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEYCIQC8MVzX/2bppBXRoU2iPACX3P+9zpY6AfRsipaBfnkYRQIhAMF0RROfZxOfvCotdv4GiKlpOBWuBIZg31n/B5iCK1dp"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@heroui%2freact@3.2.6",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 854218
+    }
+  },
+  {
+    "name": "@heroui/styles",
+    "version": "3.2.6",
+    "license": "MIT",
+    "peerDependencies": {
+      "tailwindcss": ">=4.0.0"
+    },
+    "repository": {
+      "url": "git+https://github.com/heroui-inc/heroui.git",
+      "type": "git",
+      "directory": "packages/styles"
+    },
+    "dist": {
+      "shasum": "972af578d8b8c8c59cd00038da99a5ec187c645a",
+      "tarball": "https://registry.npmjs.org/@heroui/styles/-/styles-3.2.6.tgz",
+      "fileCount": 781,
+      "integrity": "sha512-feKZUphVe5+QCXnUe8kpqT5T+pPeMI3LaQcSztx08PGVTkhz0dU0C6crKvA1G4HHIPFXXon68VeL8lPjvGHsWg==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDds4oA5ibf9/ro4Z73zjhSwEaR8HHRIb8wuffjd86WZwIhAPJ1GaQZb2MMycdVKrd0rtRTlraShviNPMLy1oafyhBo",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEYCIQDXVQbQZEW4U9prOsJCPveTbq0gjYhRdgyAYt8Oc/WokwIhAKacQrwFxrPX1yQytQtrvT4byyzO7leTTdNShZzWTG2g"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@heroui%2fstyles@3.2.6",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 1037681
+    }
+  },
+  {
+    "name": "tailwindcss",
+    "version": "4.3.3",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/tailwindlabs/tailwindcss.git",
+      "type": "git",
+      "directory": "packages/tailwindcss"
+    },
+    "dist": {
+      "shasum": "c006861611c213c1877893ab5b23daa16be2bb55",
+      "tarball": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz",
+      "fileCount": 34,
+      "integrity": "sha512-gOhV3P7ufE62QDGg1zVaTgCR+EtPv92k2nIhVcVKcLmxT1sUBsQGhnZj175j+MqRt4zLF7ic+sCYjfhxMxj7YQ==",
+      "signatures": [
+        {
+          "sig": "MEQCIBhVHX/RChjUWt77CdssLibpRhMHsS3XWOKLRtP/ibJvAiBt9/qLAVxC6nR+eobWqzs5j/1ztHVMWGH0p/sMFj08bw==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/tailwindcss@4.3.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 772893
+    }
+  },
+  {
+    "name": "@tailwindcss/vite",
+    "version": "4.3.3",
+    "license": "MIT",
+    "peerDependencies": {
+      "vite": "^5.2.0 || ^6 || ^7 || ^8"
+    },
+    "repository": {
+      "url": "https://github.com/tailwindlabs/tailwindcss.git",
+      "type": "git",
+      "directory": "packages/@tailwindcss-vite"
+    },
+    "dist": {
+      "shasum": "1f4037badcb5e6c6bb574d3d8a0172c83f26b97f",
+      "tarball": "https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.3.3.tgz",
+      "fileCount": 5,
+      "integrity": "sha512-yYU8cogLeSh/ms2jh8Fj7jaba/EWa7Ja6GoUqYZaraEuCI5YS6ms6ObZgjjedm+jm6XZjdNRWBpPP6Z86oOxcw==",
+      "signatures": [
+        {
+          "sig": "MEQCIAiPWBXY0DZ2rAkCNr7Cjo7KhJ1O8aq5SFWPTZ/NPJhPAiA0/SteZVX1HoTmrKS0BoaUzk4kzLmst7+D0cvaf8a39g==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tailwindcss%2fvite@4.3.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 13509
+    }
+  },
+  {
+    "name": "@internationalized/date",
+    "version": "3.12.4",
+    "license": "Apache-2.0",
+    "repository": {
+      "url": "https://github.com/adobe/react-spectrum/tree/main/packages/@internationalized/date",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "a391e01d54ca80b3cb4c3d5040d46a0b26c3f20f",
+      "tarball": "https://registry.npmjs.org/@internationalized/date/-/date-3.12.4.tgz",
+      "fileCount": 157,
+      "integrity": "sha512-M1dEn4c1U1HsSlaVR8upZtSqvXrTkHDfv18H01uCSJyjVLDxnBR38v/fMxecmlwXKR4i9HeZcmgQAPE6A+aGJQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQDCuzJlXXObhf266Sn9Rc/dRzxZxTAjGM2WqpUFKTlTJgIhAOktYZMkdPw5S1lwPz4ibSCKCz9ftf7P8A5GtyjYVybm",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "sig": "MEUCIDfvcL3cfVL/LxVEEs2brpe9xjIIJ8eLtAYgRYxIXY2aAiEA8KEES09yptxs4tXsfdkCl0JcpyvuT8wdc8V5ADi2w4E=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 1224987
+    }
+  },
+  {
+    "name": "react-aria-components",
+    "version": "1.22.1",
+    "license": "Apache-2.0",
+    "peerDependencies": {
+      "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+      "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+    },
+    "repository": {
+      "url": "git+https://github.com/adobe/react-spectrum.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "abc446c527e1804673ac84d43a6909828d1e1724",
+      "tarball": "https://registry.npmjs.org/react-aria-components/-/react-aria-components-1.22.1.tgz",
+      "fileCount": 1446,
+      "integrity": "sha512-UTHaYHOaM71bOCjGPF50DcLywlrwAodE63IP64LB4kO+OizatQEL8TesVEOM8+TkBeSgHoflJ45388IlJfa7aw==",
+      "signatures": [
+        {
+          "sig": "MEUCIAZ+EgjkB1fxANMs98pYQFxVc/BaO1bM1MRlRCSpBsuoAiEAvpHkkZ/G5Qu0kF8q0n3HGskRLEB8xtOHvwt0nJQb9kE=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEUCIDmK6kw/pYWiTeC4Q//dY3Rc8ElN5Batxsm7RQOiHrzuAiEA6iK/ggs9VlQ66VLdO1JjX0nBfqydKKpRB1YkbXHT2LM="
+        }
+      ],
+      "unpackedSize": 6935582
+    }
+  },
+  {
+    "name": "react-aria",
+    "version": "3.53.1",
+    "license": "Apache-2.0",
+    "peerDependencies": {
+      "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+      "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+    },
+    "repository": {
+      "url": "git+https://github.com/adobe/react-spectrum.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "8c78b8e1a2c680d404c1aabe75f31c98d2444b10",
+      "tarball": "https://registry.npmjs.org/react-aria/-/react-aria-3.53.1.tgz",
+      "fileCount": 7258,
+      "integrity": "sha512-dikisyOjJd3D2fFrIDWmVWzqiLz5B86GzZv1zxs7xI4dVc0JIz/1Wa52I20gYvVL2WXeFXlygYsle/QcOMhtcg==",
+      "signatures": [
+        {
+          "sig": "MEQCIBKZtdvVbCt8mKeGUqd3U39TOJ1+3+QZ+UdY4VBQpI55AiB6ecFFh09ofEj+f+DzWUMOBFGBSBI+zByNldrq7fPScQ==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        },
+        {
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+          "sig": "MEYCIQCVrvk6ySQ2Cn5ySV8p9ncbaLgraNC5Ay2JXO1xos4KNwIhAJlWbwvCggaDmfXJ9MwgfiOLk11edtIQUB32P3pY2xEl"
+        }
+      ],
+      "unpackedSize": 15746744
+    }
+  },
+  {
+    "name": "@react-aria/ssr",
+    "version": "3.10.1",
+    "license": "Apache-2.0",
+    "peerDependencies": {
+      "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+      "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+    },
+    "repository": {
+      "url": "git+https://github.com/adobe/react-spectrum.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "d082600c811e35e8ab780c55c47b5d731359aaf7",
+      "tarball": "https://registry.npmjs.org/@react-aria/ssr/-/ssr-3.10.1.tgz",
+      "fileCount": 10,
+      "integrity": "sha512-jn038/ZYmu6DpfXJ6r2U9zFFppjbc9wnApPJSCxao2RZVEqep4YyoniHSy8qv6V21/xyS4IV7W9a+X2jOjSuag==",
+      "signatures": [
+        {
+          "sig": "MEUCIBmy4PbsVzRsSm360ZW1jNMJkMmy2LwA/hulEqfi+/hNAiEA7Q1z0c6bkXKXh7jIm5rQQkrma1fCex75KiN82qvf6/0=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 19156
+    }
+  },
+  {
+    "name": "@react-aria/utils",
+    "version": "3.34.1",
+    "license": "Apache-2.0",
+    "peerDependencies": {
+      "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1",
+      "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1"
+    },
+    "repository": {
+      "url": "git+https://github.com/adobe/react-spectrum.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "ced8c328cf7ded923a2901961325fb397a1b53c8",
+      "tarball": "https://registry.npmjs.org/@react-aria/utils/-/utils-3.34.1.tgz",
+      "fileCount": 10,
+      "integrity": "sha512-H6+rGZL+0f58bBNaUMfctEnT+NogqwAk+nHiB8sR3K+YlQ37GTuCijy2U/pPvQtFMS5mURrjZeBH5JNNXsx14A==",
+      "signatures": [
+        {
+          "sig": "MEQCIDpcrLUBzqrDXp/PaKkmYjzTokffEbfn7JkH6yLRIn80AiA21JLeF6NTOmUxosFK3hwv6qERsHFYTaRxxAvccVLbqg==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 67765
+    }
+  }
+]

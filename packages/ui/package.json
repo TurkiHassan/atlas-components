@@ -1,0 +1,135 @@
+{
+  "name": "@atlas/ui",
+  "version": "1.1.0",
+  "description": "Curated upstream React components, Arabic RTL ready. No custom component implementations.",
+  "private": true,
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "dist",
+    "styles",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "licenses"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": "./styles/core.css",
+    "./theme": {
+      "types": "./dist/theme.d.ts",
+      "import": "./dist/theme.js"
+    },
+    "./hooks": {
+      "types": "./dist/hooks.d.ts",
+      "import": "./dist/hooks.js"
+    },
+    "./form": {
+      "types": "./dist/form.d.ts",
+      "import": "./dist/form.js"
+    },
+    "./dates": {
+      "types": "./dist/dates.d.ts",
+      "import": "./dist/dates.js"
+    },
+    "./dates/styles.css": "./styles/dates.css",
+    "./charts": {
+      "types": "./dist/charts.d.ts",
+      "import": "./dist/charts.js"
+    },
+    "./charts/styles.css": "./styles/charts.css",
+    "./notifications": {
+      "types": "./dist/notifications.d.ts",
+      "import": "./dist/notifications.js"
+    },
+    "./notifications/styles.css": "./styles/notifications.css",
+    "./modals": {
+      "types": "./dist/modals.d.ts",
+      "import": "./dist/modals.js"
+    },
+    "./dropzone": {
+      "types": "./dist/dropzone.d.ts",
+      "import": "./dist/dropzone.js"
+    },
+    "./dropzone/styles.css": "./styles/dropzone.css",
+    "./spotlight": {
+      "types": "./dist/spotlight.d.ts",
+      "import": "./dist/spotlight.js"
+    },
+    "./spotlight/styles.css": "./styles/spotlight.css",
+    "./carousel": {
+      "types": "./dist/carousel.d.ts",
+      "import": "./dist/carousel.js"
+    },
+    "./carousel/styles.css": "./styles/carousel.css",
+    "./editor": {
+      "types": "./dist/editor.d.ts",
+      "import": "./dist/editor.js"
+    },
+    "./editor/styles.css": "./styles/editor.css",
+    "./table": {
+      "types": "./dist/table.d.ts",
+      "import": "./dist/table.js"
+    },
+    "./table/styles.css": "./styles/table.css",
+    "./virtual": {
+      "types": "./dist/virtual.d.ts",
+      "import": "./dist/virtual.js"
+    },
+    "./motion": {
+      "types": "./dist/motion.d.ts",
+      "import": "./dist/motion.js"
+    },
+    "./icons": {
+      "types": "./dist/icons.d.ts",
+      "import": "./dist/icons.js"
+    },
+    "./numbers": {
+      "types": "./dist/numbers.d.ts",
+      "import": "./dist/numbers.js"
+    },
+    "./tiptap": {
+      "types": "./dist/tiptap.d.ts",
+      "import": "./dist/tiptap.js"
+    },
+    "./fonts.css": "./styles/fonts.css"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "dependencies": {
+    "@mantine/core": "9.7.3",
+    "@mantine/hooks": "9.7.3",
+    "@mantine/form": "9.7.3",
+    "@mantine/dates": "9.7.3",
+    "@mantine/charts": "9.7.3",
+    "@mantine/notifications": "9.7.3",
+    "@mantine/modals": "9.7.3",
+    "@mantine/dropzone": "9.7.3",
+    "@mantine/spotlight": "9.7.3",
+    "@mantine/carousel": "9.7.3",
+    "@mantine/tiptap": "9.7.3",
+    "mantine-datatable": "9.4.0",
+    "react-virtuoso": "4.18.19",
+    "lucide-react": "1.61.0",
+    "motion": "14.5.0",
+    "@number-flow/react": "0.6.2",
+    "@tiptap/react": "3.32.0",
+    "@tiptap/pm": "3.32.0",
+    "@tiptap/starter-kit": "3.32.0",
+    "@tiptap/extension-link": "3.32.0",
+    "dayjs": "1.11.23",
+    "recharts": "3.10.1",
+    "embla-carousel": "8.6.0",
+    "embla-carousel-react": "8.6.0",
+    "clsx": "2.1.1"
+  }
+}

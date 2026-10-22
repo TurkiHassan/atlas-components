@@ -1,0 +1,151 @@
+{
+  "checkedOn": "2026-10-22",
+  "candidates": [
+    {
+      "repo": "mantinedev/mantine",
+      "url": "https://github.com/mantinedev/mantine",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-21T20:02:57Z",
+      "stars": 31852,
+      "openIssuesAndPRs": 33,
+      "defaultBranch": "master",
+      "description": "A fully featured React components library"
+    },
+    {
+      "repo": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-20T20:37:52Z",
+      "stars": 126168,
+      "openIssuesAndPRs": 1781,
+      "defaultBranch": "main",
+      "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own."
+    },
+    {
+      "repo": "heroui-inc/heroui",
+      "url": "https://github.com/heroui-inc/heroui",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-10-22T03:00:56Z",
+      "stars": 30978,
+      "openIssuesAndPRs": 24,
+      "defaultBranch": "v3",
+      "description": "🚀 Beautiful, fast and modern React UI library. (Previously NextUI)"
+    },
+    {
+      "repo": "ant-design/ant-design",
+      "url": "https://github.com/ant-design/ant-design",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-22T06:53:25Z",
+      "stars": 99842,
+      "openIssuesAndPRs": 1104,
+      "defaultBranch": "master",
+      "description": "An enterprise-class UI design language and React UI library"
+    },
+    {
+      "repo": "mui/material-ui",
+      "url": "https://github.com/mui/material-ui",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-22T05:26:44Z",
+      "stars": 99260,
+      "openIssuesAndPRs": 1516,
+      "defaultBranch": "master",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever."
+    },
+    {
+      "repo": "chakra-ui/chakra-ui",
+      "url": "https://github.com/chakra-ui/chakra-ui",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-17T21:51:23Z",
+      "stars": 40699,
+      "openIssuesAndPRs": 17,
+      "defaultBranch": "main",
+      "description": "Chakra UI is a component system for building SaaS products with speed ⚡️"
+    },
+    {
+      "repo": "mui/base-ui",
+      "url": "https://github.com/mui/base-ui",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-22T00:45:24Z",
+      "stars": 11205,
+      "openIssuesAndPRs": 438,
+      "defaultBranch": "master",
+      "description": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI."
+    },
+    {
+      "repo": "adobe/react-spectrum",
+      "url": "https://github.com/adobe/react-spectrum",
+      "license": "Apache-2.0",
+      "archived": false,
+      "pushedAt": "2026-10-22T00:46:53Z",
+      "stars": 15976,
+      "openIssuesAndPRs": 644,
+      "defaultBranch": "main",
+      "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences."
+    },
+    {
+      "repo": "radix-ui/primitives",
+      "url": "https://github.com/radix-ui/primitives",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-14T21:52:47Z",
+      "stars": 19415,
+      "openIssuesAndPRs": 242,
+      "defaultBranch": "main",
+      "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos."
+    },
+    {
+      "repo": "magicuidesign/magicui",
+      "url": "https://github.com/magicuidesign/magicui",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-10-17T05:27:02Z",
+      "stars": 22782,
+      "openIssuesAndPRs": 1,
+      "defaultBranch": "main",
+      "description": "UI Library for Design Engineers. Animated components and effects you can copy and paste into your apps. Free. Open Source."
+    },
+    {
+      "repo": "DavidHDev/react-bits",
+      "url": "https://github.com/DavidHDev/react-bits",
+      "license": "NOASSERTION",
+      "archived": false,
+      "pushedAt": "2026-10-19T07:37:02Z",
+      "stars": 49938,
+      "openIssuesAndPRs": 1,
+      "defaultBranch": "main",
+      "description": "The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents."
+    },
+    {
+      "repo": "aceternity/aceternity-ui",
+      "error": 404
+    },
+    {
+      "repo": "barvian/number-flow",
+      "url": "https://github.com/barvian/number-flow",
+      "license": "MIT",
+      "archived": false,
+      "pushedAt": "2026-09-20T13:51:56Z",
+      "stars": 7758,
+      "openIssuesAndPRs": 18,
+      "defaultBranch": "main",
+      "description": "An animated number component for React, Vue, Svelte, and TS/JS."
+    },
+    {
+      "repo": "petyosi/react-virtuoso",
+      "url": "https://github.com/petyosi/react-virtuoso",
+      "archived": false,
+      "pushedAt": "2026-10-19T14:09:25Z",
+      "stars": 6473,
+      "openIssuesAndPRs": 54,
+      "defaultBranch": "main",
+      "description": "The most powerful virtual list component for React"
+    }
+  ]
+}

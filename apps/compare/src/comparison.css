@@ -1,0 +1,20 @@
+html { min-width: 320px; }
+body { margin: 0; font-synthesis: none; background: light-dark(#fbfcf9, #101612); }
+.comparison-header { border-bottom: 1px solid light-dark(#e1e5e1, #29332f); padding: 22px max(24px, calc((100vw - 1440px) / 2)); }
+.comparison-main { max-width: 1440px; margin-inline: auto; padding: 38px 28px 48px; }
+.comparison-controls { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+.comparison-panes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.comparison-panes[data-single='true'] { grid-template-columns: minmax(0, 1fr); max-width: 850px; margin-inline: auto; }
+.comparison-pane { min-width: 0; }
+.frame-surface { overflow: hidden; }
+.frame-viewport { margin-inline: auto; width: 100%; }
+.frame-viewport[data-mobile='true'] { max-width: 390px; }
+.component-frame { display: block; border: 0; width: 100%; height: 720px; }
+::selection { background: #b3e6d2; color: #102a25; }
+@media (max-width: 950px) { .comparison-panes { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 600px) {
+  .comparison-header { padding: 16px; }
+  .comparison-main { padding: 26px 16px; }
+  .comparison-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .component-frame { height: 740px; }
+}

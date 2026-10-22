@@ -1,0 +1,18 @@
+{
+  "checkedOn": "2026-10-22",
+  "family": "Free Palestine",
+  "postScriptName": "FreePalestine-Regular",
+  "version": "1.000",
+  "designer": "Ahmed Zyada / zyadafoundry",
+  "source": "User-installed local font: /Users/turki/Library/Fonts/FreePalestine-Regular.ttf",
+  "sha256": "7e71a16131330277ad7726200ea4014f4257b1c96025680d54ef8511deedc896",
+  "bytes": 42060,
+  "weight": 400,
+  "variable": false,
+  "coverage": "Arabic letters and Arabic-Indic digits; Latin and Western digits fall back to Noto.",
+  "copyright": "Copyright 2026. All rights reserved. No redistribution license text was found with the supplied local file.",
+  "embeddingFsType": 8,
+  "integration": "CSS local() only. No Free Palestine binary is copied into the project, production output, or distributable tarball. Editable embedding metadata is not treated as redistribution permission.",
+  "userDecision": "Free Palestine for headings; Noto Sans Arabic for body, forms, and buttons.",
+  "calibration": "Local alias Atlas Free Palestine uses size-adjust 185%, ascent 75%, descent 40%, zero line gap. Regular weight only, font-synthesis none. Noto/system fallback on devices without the installed font."
+}

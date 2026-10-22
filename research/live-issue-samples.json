@@ -1,0 +1,35 @@
+{
+  "checkedOn": "2026-10-22",
+  "note": "Small qualitative sample sorted by update time. Does not establish bug prevalence or indicate all issues affect the installed versions.",
+  "samples": [
+    {
+      "repo": "mantinedev/mantine",
+      "issues": [
+        {
+          "number": 9316,
+          "title": "[@mantine/schedule] DayView/WeekView: events and current time indicator are drawn at the wrong time on DST transition days",
+          "url": "https://github.com/mantinedev/mantine/issues/9316",
+          "state": "open",
+          "updatedAt": "2026-10-22T07:17:31Z",
+          "labels": []
+        }
+      ]
+    },
+    {
+      "repo": "shadcn-ui/ui",
+      "issues": [
+        {
+          "number": 4717,
+          "title": "[bug]: Tailwind config parsing fails when encountering variable fonts and Tailwind Typography",
+          "url": "https://github.com/shadcn-ui/ui/issues/4717",
+          "state": "open",
+          "updatedAt": "2026-10-22T03:08:22Z",
+          "labels": [
+            "bug",
+            "stale?"
+          ]
+        }
+      ]
+    }
+  ]
+}
