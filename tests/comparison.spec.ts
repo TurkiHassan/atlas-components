@@ -69,7 +69,10 @@ test('HeroUI displays Umm al-Qura while keeping storage consistent', async ({ pa
 });
 
 test('comparison controls update both isolated previews and remain responsive', async ({ page }) => {
-  await page.goto('/compare/');
+  const response = await page.goto('/compare/');
+  const html = await response!.text();
+  expect(html).not.toContain('/@vite/client');
+  expect(html).toContain('/compare/compare-assets/');
   await expect(page.locator('iframe')).toHaveCount(2);
   for (const name of ['hero', 'mantine']) await expect(page.frameLocator(`iframe[name="${name}"]`).getByRole('heading', { name: 'مشروع جديد' })).toBeVisible();
   await page.getByText('الجدول', { exact: true }).click();

@@ -33,6 +33,12 @@
 - قياسات الإنتاج وحدودها في `docs/COMPARISON-RESULTS.md`؛ ولقطات المقارنة في `artifacts/comparison-form-*.png` والتقويم في `artifacts/*-calendar-*.png`.
 - فحص الخطوط الميكانيكي محفوظ في `artifacts/typeset-scan.json`، دون ملاحظات.
 
+## تحقق النشر على GitHub
+
+- فحص GitHub Actions يثبت الاعتماديات وChrome على Ubuntu، ثم يفحص الأنواع والبناء والتكامل والتراخيص والحزمة في مشروع مستهلك جديد.
+- جرى فصل `preview.proxy` عن تحويلات خادم التطوير؛ تخدم معاينة الإنتاج ملفات المقارنة المبنية مباشرة من خادم واحد.
+- يتحقق اختبار المقارنة من غياب `/@vite/client` ووجود ملفات `compare-assets` في HTML الإنتاج، كي لا يخفي خادم تطوير يعمل بالخلفية نقصًا في النشر.
+
 ## إصلاحات تمت باستخدام API المصدر
 
 - أُضيفت تسميات السحب إلى Slider عبر thumbLabel، وتسميات Progress.Section، وزر قطارة الألوان عبر eyeDropperButtonProps.
