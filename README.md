@@ -49,10 +49,10 @@ npm run pack
 npm run pack
 ```
 
-ينتج `artifacts/atlas-ui-1.1.0.tgz`. ثبّته داخل مشروع React متوافق:
+ينتج `artifacts/atlas-ui-1.1.1.tgz`. ثبّته داخل مشروع React متوافق:
 
 ```bash
-npm install /path/to/atlas-components/artifacts/atlas-ui-1.1.0.tgz
+npm install /path/to/atlas-components/artifacts/atlas-ui-1.1.1.tgz
 ```
 
 الحزمة قابلة للتوليد من المستودع العام، ولم تُنشر إلى npm. استبدل `/path/to/atlas-components` بمسار نسختك المحلية. تحتاج React وReact DOM 19.2 أو أحدث متوافق. لا تضف إصدارات Mantine مختلفة إلى مشروعك المستهلك. Tiptap يحتاج إعداد محركه عند استخدام المحرر. الأمثلة الكاملة داخل المعرض تعرض الاستيرادات الفعلية.

@@ -5,7 +5,7 @@
 ## التثبيت
 
 ```bash
-npm install ./atlas-ui-1.1.0.tgz
+npm install ./atlas-ui-1.1.1.tgz
 ```
 
 تحتاج React وReact DOM متوافقين مع `^19.2.0`. الحزمة محلية وخاصة ولم تنشر إلى npm.
