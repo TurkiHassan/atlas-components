@@ -63,7 +63,8 @@ Atlas is an integration of upstream packages. Component implementations remain o
 | [@react-types/shared](https://www.npmjs.com/package/@react-types/shared/v/3.37.0) | 3.37.0 | Apache-2.0 | catalog / transitive | [react-types__shared-3.37.0-LICENSE.txt](licenses/react-types__shared-3.37.0-LICENSE.txt) |
 | [@react-types/shared](https://www.npmjs.com/package/@react-types/shared/v/3.37.0) | 3.37.0 | Apache-2.0 | catalog / transitive | [react-types__shared-3.37.0-LICENSE.txt](licenses/react-types__shared-3.37.0-LICENSE.txt) |
 | [@reduxjs/toolkit](https://www.npmjs.com/package/@reduxjs/toolkit/v/2.13.0) | 2.13.0 | MIT | catalog / transitive | [reduxjs__toolkit-2.13.0-LICENSE.txt](licenses/reduxjs__toolkit-2.13.0-LICENSE.txt) |
-| [@rolldown/binding-darwin-arm64](https://www.npmjs.com/package/@rolldown/binding-darwin-arm64/v/1.2.15) | 1.2.15 | MIT | tooling | [rolldown-binding-1.2.15-LICENSE.txt](licenses/rolldown-binding-1.2.15-LICENSE.txt) |
+| [@rolldown/binding-linux-x64-gnu](https://www.npmjs.com/package/@rolldown/binding-linux-x64-gnu/v/1.2.15) | 1.2.15 | MIT | tooling | No standalone text shipped; inspect package source |
+| [@rolldown/binding-linux-x64-musl](https://www.npmjs.com/package/@rolldown/binding-linux-x64-musl/v/1.2.15) | 1.2.15 | MIT | tooling | No standalone text shipped; inspect package source |
 | [@rolldown/pluginutils](https://www.npmjs.com/package/@rolldown/pluginutils/v/1.0.1) | 1.0.1 | MIT | tooling | [rolldown__pluginutils-1.0.1-LICENSE.txt](licenses/rolldown__pluginutils-1.0.1-LICENSE.txt) |
 | [@spectrum-icons/ui](https://www.npmjs.com/package/@spectrum-icons/ui/v/3.7.2) | 3.7.2 | Apache-2.0 | catalog / transitive | [spectrum-icons__ui-3.7.2-LICENSE.txt](licenses/spectrum-icons__ui-3.7.2-LICENSE.txt) |
 | [@spectrum-icons/workflow](https://www.npmjs.com/package/@spectrum-icons/workflow/v/4.3.2) | 4.3.2 | Apache-2.0 | catalog / transitive | [spectrum-icons__workflow-4.3.2-LICENSE.txt](licenses/spectrum-icons__workflow-4.3.2-LICENSE.txt) |
@@ -72,7 +73,8 @@ Atlas is an integration of upstream packages. Component implementations remain o
 | [@swc/helpers](https://www.npmjs.com/package/@swc/helpers/v/0.5.23) | 0.5.23 | Apache-2.0 | catalog / transitive | [swc__helpers-0.5.23-LICENSE.txt](licenses/swc__helpers-0.5.23-LICENSE.txt) |
 | [@tailwindcss/node](https://www.npmjs.com/package/@tailwindcss/node/v/4.3.3) | 4.3.3 | MIT | tooling | [tailwindcss__node-4.3.3-LICENSE.txt](licenses/tailwindcss__node-4.3.3-LICENSE.txt) |
 | [@tailwindcss/oxide](https://www.npmjs.com/package/@tailwindcss/oxide/v/4.3.3) | 4.3.3 | MIT | tooling | [tailwindcss__oxide-4.3.3-LICENSE.txt](licenses/tailwindcss__oxide-4.3.3-LICENSE.txt) |
-| [@tailwindcss/oxide-darwin-arm64](https://www.npmjs.com/package/@tailwindcss/oxide-darwin-arm64/v/4.3.3) | 4.3.3 | MIT | tooling | [tailwindcss__oxide-darwin-arm64-4.3.3-LICENSE.txt](licenses/tailwindcss__oxide-darwin-arm64-4.3.3-LICENSE.txt) |
+| [@tailwindcss/oxide-linux-x64-gnu](https://www.npmjs.com/package/@tailwindcss/oxide-linux-x64-gnu/v/4.3.3) | 4.3.3 | MIT | tooling | [tailwindcss__oxide-linux-x64-gnu-4.3.3-LICENSE.txt](licenses/tailwindcss__oxide-linux-x64-gnu-4.3.3-LICENSE.txt) |
+| [@tailwindcss/oxide-linux-x64-musl](https://www.npmjs.com/package/@tailwindcss/oxide-linux-x64-musl/v/4.3.3) | 4.3.3 | MIT | tooling | [tailwindcss__oxide-linux-x64-musl-4.3.3-LICENSE.txt](licenses/tailwindcss__oxide-linux-x64-musl-4.3.3-LICENSE.txt) |
 | [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite/v/4.3.3) | 4.3.3 | MIT | tooling | [tailwindcss__vite-4.3.3-LICENSE.txt](licenses/tailwindcss__vite-4.3.3-LICENSE.txt) |
 | [@tiptap/core](https://www.npmjs.com/package/@tiptap/core/v/3.32.0) | 3.32.0 | MIT | catalog / transitive | [tiptap__core-3.32.0-LICENSE.md.txt](licenses/tiptap__core-3.32.0-LICENSE.md.txt) |
 | [@tiptap/extension-blockquote](https://www.npmjs.com/package/@tiptap/extension-blockquote/v/3.32.0) | 3.32.0 | MIT | catalog / transitive | [tiptap__extension-blockquote-3.32.0-LICENSE.md.txt](licenses/tiptap__extension-blockquote-3.32.0-LICENSE.md.txt) |
@@ -115,7 +117,7 @@ Atlas is an integration of upstream packages. Component implementations remain o
 | [@types/react](https://www.npmjs.com/package/@types/react/v/19.3.0) | 19.3.0 | MIT | catalog / transitive | [types__react-19.3.0-LICENSE.txt](licenses/types__react-19.3.0-LICENSE.txt) |
 | [@types/react-dom](https://www.npmjs.com/package/@types/react-dom/v/19.3.0) | 19.3.0 | MIT | catalog / transitive | [types__react-dom-19.3.0-LICENSE.txt](licenses/types__react-dom-19.3.0-LICENSE.txt) |
 | [@types/use-sync-external-store](https://www.npmjs.com/package/@types/use-sync-external-store/v/0.0.6) | 0.0.6 | MIT | catalog / transitive | [types__use-sync-external-store-0.0.6-LICENSE.txt](licenses/types__use-sync-external-store-0.0.6-LICENSE.txt) |
-| [@typescript/typescript-darwin-arm64](https://www.npmjs.com/package/@typescript/typescript-darwin-arm64/v/7.0.2) | 7.0.2 | Apache-2.0 | tooling | [typescript__typescript-darwin-arm64-7.0.2-LICENSE.txt](licenses/typescript__typescript-darwin-arm64-7.0.2-LICENSE.txt), [typescript__typescript-darwin-arm64-7.0.2-NOTICE.txt.txt](licenses/typescript__typescript-darwin-arm64-7.0.2-NOTICE.txt.txt) |
+| [@typescript/typescript-linux-x64](https://www.npmjs.com/package/@typescript/typescript-linux-x64/v/7.0.2) | 7.0.2 | Apache-2.0 | tooling | [typescript__typescript-linux-x64-7.0.2-LICENSE.txt](licenses/typescript__typescript-linux-x64-7.0.2-LICENSE.txt), [typescript__typescript-linux-x64-7.0.2-NOTICE.txt.txt](licenses/typescript__typescript-linux-x64-7.0.2-NOTICE.txt.txt) |
 | [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react/v/6.1.2) | 6.1.2 | MIT | tooling | [vitejs__plugin-react-6.1.2-LICENSE.txt](licenses/vitejs__plugin-react-6.1.2-LICENSE.txt) |
 | [aria-hidden](https://www.npmjs.com/package/aria-hidden/v/1.2.6) | 1.2.6 | MIT | catalog / transitive | [aria-hidden-1.2.6-LICENSE.txt](licenses/aria-hidden-1.2.6-LICENSE.txt) |
 | [attr-accept](https://www.npmjs.com/package/attr-accept/v/4.0.1) | 4.0.1 | MIT | catalog / transitive | [attr-accept-4.0.1-LICENSE.txt](licenses/attr-accept-4.0.1-LICENSE.txt) |
@@ -150,8 +152,7 @@ Atlas is an integration of upstream packages. Component implementations remain o
 | [fast-equals](https://www.npmjs.com/package/fast-equals/v/5.4.5) | 5.4.5 | MIT | catalog / transitive | [fast-equals-5.4.5-LICENSE.txt](licenses/fast-equals-5.4.5-LICENSE.txt) |
 | [fdir](https://www.npmjs.com/package/fdir/v/6.5.0) | 6.5.0 | MIT | tooling | [fdir-6.5.0-LICENSE.txt](licenses/fdir-6.5.0-LICENSE.txt) |
 | [file-selector](https://www.npmjs.com/package/file-selector/v/5.0.1) | 5.0.1 | MIT | catalog / transitive | [file-selector-5.0.1-LICENSE.txt](licenses/file-selector-5.0.1-LICENSE.txt) |
-| [framer-motion](https://www.npmjs.com/package/framer-motion/v/14.5.0) | 14.5.0 | MIT | catalog / transitive | [framer-motion-14.5.0-LICENSE.md.txt](licenses/framer-motion-14.5.0-LICENSE.md.txt) |
-| [fsevents](https://www.npmjs.com/package/fsevents/v/2.3.3) | 2.3.3 | MIT | tooling | [fsevents-2.3.3-LICENSE.txt](licenses/fsevents-2.3.3-LICENSE.txt) |
+| [framer-motion](https://www.npmjs.com/package/framer-motion/v/14.6.0) | 14.6.0 | MIT | catalog / transitive | [framer-motion-14.6.0-LICENSE.md.txt](licenses/framer-motion-14.6.0-LICENSE.md.txt) |
 | [get-nonce](https://www.npmjs.com/package/get-nonce/v/1.0.1) | 1.0.1 | MIT | catalog / transitive | [get-nonce-1.0.1-LICENSE.txt](licenses/get-nonce-1.0.1-LICENSE.txt) |
 | [graceful-fs](https://www.npmjs.com/package/graceful-fs/v/4.2.11) | 4.2.11 | ISC | tooling | [graceful-fs-4.2.11-LICENSE.txt](licenses/graceful-fs-4.2.11-LICENSE.txt) |
 | [immer](https://www.npmjs.com/package/immer/v/11.2.7) | 11.2.7 | MIT | catalog / transitive | [immer-11.2.7-LICENSE.txt](licenses/immer-11.2.7-LICENSE.txt) |
@@ -162,16 +163,18 @@ Atlas is an integration of upstream packages. Component implementations remain o
 | [klona](https://www.npmjs.com/package/klona/v/2.0.6) | 2.0.6 | MIT | catalog / transitive | [klona-2.0.6-license.txt](licenses/klona-2.0.6-license.txt) |
 | [lightningcss](https://www.npmjs.com/package/lightningcss/v/1.32.0) | 1.32.0 | MPL-2.0 | tooling | [lightningcss-1.32.0-LICENSE.txt](licenses/lightningcss-1.32.0-LICENSE.txt) |
 | [lightningcss](https://www.npmjs.com/package/lightningcss/v/1.33.0) | 1.33.0 | MPL-2.0 | tooling | [lightningcss-1.33.0-LICENSE.txt](licenses/lightningcss-1.33.0-LICENSE.txt) |
-| [lightningcss-darwin-arm64](https://www.npmjs.com/package/lightningcss-darwin-arm64/v/1.32.0) | 1.32.0 | MPL-2.0 | tooling | [lightningcss-darwin-arm64-1.32.0-LICENSE.txt](licenses/lightningcss-darwin-arm64-1.32.0-LICENSE.txt) |
-| [lightningcss-darwin-arm64](https://www.npmjs.com/package/lightningcss-darwin-arm64/v/1.33.0) | 1.33.0 | MPL-2.0 | tooling | [lightningcss-darwin-arm64-1.33.0-LICENSE.txt](licenses/lightningcss-darwin-arm64-1.33.0-LICENSE.txt) |
+| [lightningcss-linux-x64-gnu](https://www.npmjs.com/package/lightningcss-linux-x64-gnu/v/1.32.0) | 1.32.0 | MPL-2.0 | tooling | [lightningcss-linux-x64-gnu-1.32.0-LICENSE.txt](licenses/lightningcss-linux-x64-gnu-1.32.0-LICENSE.txt) |
+| [lightningcss-linux-x64-gnu](https://www.npmjs.com/package/lightningcss-linux-x64-gnu/v/1.33.0) | 1.33.0 | MPL-2.0 | tooling | [lightningcss-linux-x64-gnu-1.33.0-LICENSE.txt](licenses/lightningcss-linux-x64-gnu-1.33.0-LICENSE.txt) |
+| [lightningcss-linux-x64-musl](https://www.npmjs.com/package/lightningcss-linux-x64-musl/v/1.32.0) | 1.32.0 | MPL-2.0 | tooling | [lightningcss-linux-x64-musl-1.32.0-LICENSE.txt](licenses/lightningcss-linux-x64-musl-1.32.0-LICENSE.txt) |
+| [lightningcss-linux-x64-musl](https://www.npmjs.com/package/lightningcss-linux-x64-musl/v/1.33.0) | 1.33.0 | MPL-2.0 | tooling | [lightningcss-linux-x64-musl-1.33.0-LICENSE.txt](licenses/lightningcss-linux-x64-musl-1.33.0-LICENSE.txt) |
 | [linkifyjs](https://www.npmjs.com/package/linkifyjs/v/4.3.3) | 4.3.3 | MIT | catalog / transitive | [linkifyjs-4.3.3-LICENSE.txt](licenses/linkifyjs-4.3.3-LICENSE.txt) |
 | [loose-envify](https://www.npmjs.com/package/loose-envify/v/1.4.0) | 1.4.0 | MIT | catalog / transitive | [loose-envify-1.4.0-LICENSE.txt](licenses/loose-envify-1.4.0-LICENSE.txt) |
 | [lucide-react](https://www.npmjs.com/package/lucide-react/v/1.61.0) | 1.61.0 | ISC | library direct | [lucide-react-1.61.0-LICENSE.txt](licenses/lucide-react-1.61.0-LICENSE.txt) |
 | [magic-string](https://www.npmjs.com/package/magic-string/v/0.30.21) | 0.30.21 | MIT | tooling | [magic-string-0.30.21-LICENSE.txt](licenses/magic-string-0.30.21-LICENSE.txt) |
 | [mantine-datatable](https://www.npmjs.com/package/mantine-datatable/v/9.4.0) | 9.4.0 | MIT | library direct | [mantine-datatable-9.4.0-LICENSE.txt](licenses/mantine-datatable-9.4.0-LICENSE.txt) |
-| [motion](https://www.npmjs.com/package/motion/v/14.5.0) | 14.5.0 | MIT | library direct | [motion-14.5.0-LICENSE.md.txt](licenses/motion-14.5.0-LICENSE.md.txt) |
-| [motion-dom](https://www.npmjs.com/package/motion-dom/v/14.5.0) | 14.5.0 | MIT | catalog / transitive | [motion-dom-14.5.0-LICENSE.md.txt](licenses/motion-dom-14.5.0-LICENSE.md.txt) |
-| [motion-utils](https://www.npmjs.com/package/motion-utils/v/14.1.1) | 14.1.1 | MIT | catalog / transitive | [motion-utils-14.1.1-LICENSE.md.txt](licenses/motion-utils-14.1.1-LICENSE.md.txt) |
+| [motion](https://www.npmjs.com/package/motion/v/14.6.0) | 14.6.0 | MIT | library direct | [motion-14.6.0-LICENSE.md.txt](licenses/motion-14.6.0-LICENSE.md.txt) |
+| [motion-dom](https://www.npmjs.com/package/motion-dom/v/14.6.0) | 14.6.0 | MIT | catalog / transitive | [motion-dom-14.6.0-LICENSE.md.txt](licenses/motion-dom-14.6.0-LICENSE.md.txt) |
+| [motion-utils](https://www.npmjs.com/package/motion-utils/v/14.6.0) | 14.6.0 | MIT | catalog / transitive | [motion-utils-14.6.0-LICENSE.md.txt](licenses/motion-utils-14.6.0-LICENSE.md.txt) |
 | [nanoid](https://www.npmjs.com/package/nanoid/v/3.3.20) | 3.3.20 | MIT | tooling | [nanoid-3.3.20-LICENSE.txt](licenses/nanoid-3.3.20-LICENSE.txt) |
 | [number-flow](https://www.npmjs.com/package/number-flow/v/0.6.2) | 0.6.2 | MIT | catalog / transitive | [number-flow-0.6.2-LICENSE.md.txt](licenses/number-flow-0.6.2-LICENSE.md.txt) |
 | [object-assign](https://www.npmjs.com/package/object-assign/v/4.1.1) | 4.1.1 | MIT | catalog / transitive | [object-assign-4.1.1-license.txt](licenses/object-assign-4.1.1-license.txt) |
