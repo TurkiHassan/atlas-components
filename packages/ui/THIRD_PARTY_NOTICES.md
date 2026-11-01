@@ -25,18 +25,20 @@ Atlas is an integration of upstream packages. Component implementations remain o
 | [@jridgewell/resolve-uri](https://www.npmjs.com/package/@jridgewell/resolve-uri/v/3.1.2) | 3.1.2 | MIT | tooling | [jridgewell__resolve-uri-3.1.2-LICENSE.txt](licenses/jridgewell__resolve-uri-3.1.2-LICENSE.txt) |
 | [@jridgewell/sourcemap-codec](https://www.npmjs.com/package/@jridgewell/sourcemap-codec/v/1.6.0) | 1.6.0 | MIT | tooling | [jridgewell__sourcemap-codec-1.6.0-LICENSE.txt](licenses/jridgewell__sourcemap-codec-1.6.0-LICENSE.txt) |
 | [@jridgewell/trace-mapping](https://www.npmjs.com/package/@jridgewell/trace-mapping/v/0.3.31) | 0.3.31 | MIT | tooling | [jridgewell__trace-mapping-0.3.31-LICENSE.txt](licenses/jridgewell__trace-mapping-0.3.31-LICENSE.txt) |
-| [@mantine/carousel](https://www.npmjs.com/package/@mantine/carousel/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__carousel-9.7.3-LICENSE.txt](licenses/mantine__carousel-9.7.3-LICENSE.txt) |
-| [@mantine/charts](https://www.npmjs.com/package/@mantine/charts/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__charts-9.7.3-LICENSE.txt](licenses/mantine__charts-9.7.3-LICENSE.txt) |
+| [@mantine/carousel](https://www.npmjs.com/package/@mantine/carousel/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__carousel-9.7.4-LICENSE.txt](licenses/mantine__carousel-9.7.4-LICENSE.txt) |
+| [@mantine/charts](https://www.npmjs.com/package/@mantine/charts/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__charts-9.7.4-LICENSE.txt](licenses/mantine__charts-9.7.4-LICENSE.txt) |
 | [@mantine/core](https://www.npmjs.com/package/@mantine/core/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__core-9.7.3-LICENSE.txt](licenses/mantine__core-9.7.3-LICENSE.txt) |
-| [@mantine/dates](https://www.npmjs.com/package/@mantine/dates/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__dates-9.7.3-LICENSE.txt](licenses/mantine__dates-9.7.3-LICENSE.txt) |
-| [@mantine/dropzone](https://www.npmjs.com/package/@mantine/dropzone/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__dropzone-9.7.3-LICENSE.txt](licenses/mantine__dropzone-9.7.3-LICENSE.txt) |
-| [@mantine/form](https://www.npmjs.com/package/@mantine/form/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__form-9.7.3-LICENSE.txt](licenses/mantine__form-9.7.3-LICENSE.txt) |
+| [@mantine/core](https://www.npmjs.com/package/@mantine/core/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__core-9.7.4-LICENSE.txt](licenses/mantine__core-9.7.4-LICENSE.txt) |
+| [@mantine/dates](https://www.npmjs.com/package/@mantine/dates/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__dates-9.7.4-LICENSE.txt](licenses/mantine__dates-9.7.4-LICENSE.txt) |
+| [@mantine/dropzone](https://www.npmjs.com/package/@mantine/dropzone/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__dropzone-9.7.4-LICENSE.txt](licenses/mantine__dropzone-9.7.4-LICENSE.txt) |
+| [@mantine/form](https://www.npmjs.com/package/@mantine/form/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__form-9.7.4-LICENSE.txt](licenses/mantine__form-9.7.4-LICENSE.txt) |
 | [@mantine/hooks](https://www.npmjs.com/package/@mantine/hooks/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__hooks-9.7.3-LICENSE.txt](licenses/mantine__hooks-9.7.3-LICENSE.txt) |
-| [@mantine/modals](https://www.npmjs.com/package/@mantine/modals/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__modals-9.7.3-LICENSE.txt](licenses/mantine__modals-9.7.3-LICENSE.txt) |
-| [@mantine/notifications](https://www.npmjs.com/package/@mantine/notifications/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__notifications-9.7.3-LICENSE.txt](licenses/mantine__notifications-9.7.3-LICENSE.txt) |
-| [@mantine/spotlight](https://www.npmjs.com/package/@mantine/spotlight/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__spotlight-9.7.3-LICENSE.txt](licenses/mantine__spotlight-9.7.3-LICENSE.txt) |
-| [@mantine/store](https://www.npmjs.com/package/@mantine/store/v/9.7.3) | 9.7.3 | MIT | catalog / transitive | [mantine__store-9.7.3-LICENSE.txt](licenses/mantine__store-9.7.3-LICENSE.txt) |
-| [@mantine/tiptap](https://www.npmjs.com/package/@mantine/tiptap/v/9.7.3) | 9.7.3 | MIT | library direct | [mantine__tiptap-9.7.3-LICENSE.txt](licenses/mantine__tiptap-9.7.3-LICENSE.txt) |
+| [@mantine/hooks](https://www.npmjs.com/package/@mantine/hooks/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__hooks-9.7.4-LICENSE.txt](licenses/mantine__hooks-9.7.4-LICENSE.txt) |
+| [@mantine/modals](https://www.npmjs.com/package/@mantine/modals/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__modals-9.7.4-LICENSE.txt](licenses/mantine__modals-9.7.4-LICENSE.txt) |
+| [@mantine/notifications](https://www.npmjs.com/package/@mantine/notifications/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__notifications-9.7.4-LICENSE.txt](licenses/mantine__notifications-9.7.4-LICENSE.txt) |
+| [@mantine/spotlight](https://www.npmjs.com/package/@mantine/spotlight/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__spotlight-9.7.4-LICENSE.txt](licenses/mantine__spotlight-9.7.4-LICENSE.txt) |
+| [@mantine/store](https://www.npmjs.com/package/@mantine/store/v/9.7.4) | 9.7.4 | MIT | catalog / transitive | [mantine__store-9.7.4-LICENSE.txt](licenses/mantine__store-9.7.4-LICENSE.txt) |
+| [@mantine/tiptap](https://www.npmjs.com/package/@mantine/tiptap/v/9.7.4) | 9.7.4 | MIT | library direct | [mantine__tiptap-9.7.4-LICENSE.txt](licenses/mantine__tiptap-9.7.4-LICENSE.txt) |
 | [@number-flow/react](https://www.npmjs.com/package/@number-flow/react/v/0.6.2) | 0.6.2 | MIT | library direct | [number-flow__react-0.6.2-LICENSE.md.txt](licenses/number-flow__react-0.6.2-LICENSE.md.txt) |
 | [@oxc-project/types](https://www.npmjs.com/package/@oxc-project/types/v/0.155.0) | 0.155.0 | MIT | tooling | [oxc-project__types-0.155.0-LICENSE.txt](licenses/oxc-project__types-0.155.0-LICENSE.txt) |
 | [@playwright/test](https://www.npmjs.com/package/@playwright/test/v/1.64.1) | 1.64.1 | Apache-2.0 | tooling | [playwright__test-1.64.1-LICENSE.txt](licenses/playwright__test-1.64.1-LICENSE.txt), [playwright__test-1.64.1-NOTICE.txt](licenses/playwright__test-1.64.1-NOTICE.txt) |
