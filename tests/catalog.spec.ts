@@ -121,3 +121,18 @@ test('responsive layouts and both directions have no page overflow', async ({ pa
   await page.getByRole('button', { name: 'النماذج والإدخال' }).click();
   await expect(page.getByRole('heading', { level: 2, name: 'النماذج والإدخال' })).toBeVisible();
 });
+
+for (const direction of ['rtl', 'ltr']) {
+  test(`tree keyboard expansion follows ${direction} direction`, async ({ page }) => {
+    await page.goto('/');
+    if (direction === 'ltr') await page.getByRole('button', { name: 'تبديل اتجاه الواجهة' }).click();
+    await page.getByRole('textbox', { name: 'بحث المكونات' }).fill('tree');
+    const root = page.locator('[data-example="tree"]').getByRole('treeitem').filter({ hasText: 'src' }).first();
+    await root.focus();
+    await expect(root).toHaveAttribute('aria-expanded', 'false');
+    await page.keyboard.press(direction === 'rtl' ? 'ArrowLeft' : 'ArrowRight');
+    await expect(root).toHaveAttribute('aria-expanded', 'true');
+    await page.keyboard.press(direction === 'rtl' ? 'ArrowRight' : 'ArrowLeft');
+    await expect(root).toHaveAttribute('aria-expanded', 'false');
+  });
+}
