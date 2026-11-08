@@ -126,6 +126,7 @@ for (const direction of ['rtl', 'ltr']) {
   test(`tree keyboard expansion follows ${direction} direction`, async ({ page }) => {
     await page.goto('/');
     if (direction === 'ltr') await page.getByRole('button', { name: 'تبديل اتجاه الواجهة' }).click();
+    await page.getByRole('button', { name: 'جميع المكونات' }).click();
     await page.getByRole('textbox', { name: 'بحث المكونات' }).fill('tree');
     const root = page.locator('[data-example="tree"]').getByRole('treeitem').filter({ hasText: 'src' }).first();
     await root.focus();

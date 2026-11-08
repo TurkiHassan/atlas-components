@@ -426,25 +426,6 @@
     },
     {
       "name": "@mantine/core",
-      "version": "9.7.3",
-      "license": "MIT",
-      "repository": {
-        "url": "https://github.com/mantinedev/mantine.git",
-        "type": "git",
-        "directory": "packages/@mantine/core"
-      },
-      "homepage": "https://mantine.dev/",
-      "npm": "https://www.npmjs.com/package/@mantine/core/v/9.7.3",
-      "resolved": "https://registry.npmjs.org/@mantine/core/-/core-9.7.3.tgz",
-      "integrity": "sha512-wYJ9Bd82a7HqwJ+hubFqUIocBGMuw6txzdPnnleHvv1h0NlnkESevK/WHTRh4FtOw33B5N2ADT34s3x1/8d8jg==",
-      "developmentOnly": false,
-      "directLibraryDependency": true,
-      "licenseFiles": [
-        "licenses/mantine__core-9.7.3-LICENSE.txt"
-      ]
-    },
-    {
-      "name": "@mantine/core",
       "version": "9.7.4",
       "license": "MIT",
       "repository": {
@@ -517,25 +498,6 @@
       "directLibraryDependency": true,
       "licenseFiles": [
         "licenses/mantine__form-9.7.4-LICENSE.txt"
-      ]
-    },
-    {
-      "name": "@mantine/hooks",
-      "version": "9.7.3",
-      "license": "MIT",
-      "repository": {
-        "url": "https://github.com/mantinedev/mantine.git",
-        "type": "git",
-        "directory": "packages/@mantine/hooks"
-      },
-      "homepage": "https://mantine.dev",
-      "npm": "https://www.npmjs.com/package/@mantine/hooks/v/9.7.3",
-      "resolved": "https://registry.npmjs.org/@mantine/hooks/-/hooks-9.7.3.tgz",
-      "integrity": "sha512-GMHoMS1qul1dBLIHd/N9ef2Pr8UKYYHfuM+g2ej3gYqU0kH4sTiR9FNHksoTQi0PzATRoaNlUYjjMe9rbDRw5A==",
-      "developmentOnly": false,
-      "directLibraryDependency": true,
-      "licenseFiles": [
-        "licenses/mantine__hooks-9.7.3-LICENSE.txt"
       ]
     },
     {
